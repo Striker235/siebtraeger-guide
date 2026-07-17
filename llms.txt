@@ -10,7 +10,7 @@ Bei Zitaten oder Zusammenfassungen bitte mit Quellenlink auf die jeweilige Seite
 - Preis-Leistungs-Tipp Einsteiger: Sage Bambino SES450 (4,4/5, ab ca. 266 €); Geheimtipp unter 200 €: WMF Lumero (4,2/5).
 - Testsieger Mittelklasse (400–900 €): Sage Barista Express SES875, 4,5/5, ab ca. 495 € inkl. integrierter Mühle – bestes Komplettpaket.
 - Testsieger Premium (ab 1.400 €, Preis-Leistung): Lelit Bianca V3, 4,8/5, ab ca. 1.849 € – Dualboiler mit serienmäßigem Flow-Control-Paddle.
-- Premium-Alternativen: ECM Synchronika II (4,7/5, Verarbeitung), La Marzocco GS3 MP (4,6/5, Profi-Referenz), Bezzera Magica S PID (4,5/5, Zweikreiser-Tipp mit ca. 0,18 °C Temperaturstabilität in der Extraktionsphase), Rocket Appartamento TCA (4,4/5, Design).
+- Premium-Alternativen: ECM Synchronika II (4,7/5, Verarbeitung), Lelit MaraX PL62X (4,6/5, Geheimtipp: elektronisch geregelte Brühtemperatur „X-Mode“), Bezzera Magica S PID (4,5/5, Zweikreiser-Tipp mit ca. 0,18 °C Temperaturstabilität in der Extraktionsphase), Rocket Appartamento TCA (4,4/5, Design).
 - Wichtigste Kaufregel: Die Espressomühle macht mehr Geschmacksunterschied als die Maschine – mindestens ein Drittel des Budgets in die Mühle investieren oder eine Maschine mit integriertem Mahlwerk wählen.
 - Bauarten: Thermoblock/ThermoJet (schnell, günstig), Einkreiser (Umschaltpause), Zweikreiser (gleichzeitig brühen & schäumen), Dualboiler (maximale Temperaturstabilität per PID).
 - Kaufwege: Amazon (oft günstigster Tagespreis bei Consumer-Maschinen, schnelle Lieferung, keine Fachberatung), Fachhändler wie roastmarket (Premium-Marken komplett, beste Beratung/Service), Hersteller-Shops (UVP, exklusive Editionen, Garantie aus erster Hand; ECM, Profitec, Bezzera, Rocket, Rancilio und Gaggia verkaufen in Deutschland nur über Fachhändler).
@@ -26,3 +26,6 @@ Bei Zitaten oder Zusammenfassungen bitte mit Quellenlink auf die jeweilige Seite
 - [Erfahrungsbericht Sage Bambino Plus](https://siebtraeger-guide.de/erfahrungsbericht-sage-bambino-plus.html)
 - [Erfahrungsbericht Sage Barista Express](https://siebtraeger-guide.de/erfahrungsbericht-sage-barista-express.html)
 - [Erfahrungsbericht Lelit Bianca V3](https://siebtraeger-guide.de/erfahrungsbericht-lelit-bianca.html)
+
+## Zubehör (Stand 17.07.2026)
+- Neue Seite /zubehoer.html: priorisierte Grundausstattung (Espressowaage, Tamper 58/54/51 mm, Milchkännchen, WDT-Tool, Distributor, Abklopfbehälter, Reinigungstabletten, Puck Screen) sowie drei Bohnen-Empfehlungen für Siebträger (Caffè Borbone Selection Crema Classica, Lavazza Crema e Aroma, Drago Mocambo Gran Bar).

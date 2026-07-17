@@ -125,4 +125,6 @@ td.hl{background:#FDF9EE;font-weight:600}
 @media (min-width:700px){
   p{max-width:none}
   .lede{max-width:none}
+  /* Tabellen: Header duerfen umbrechen, damit breite Desktop-Fenster keinen Scrollbalken zeigen */
+  th{white-space:normal}
 }
