@@ -5,7 +5,7 @@
   --gold:#B98A2F; --gold-bg:#F8EFD9; --green:#2E6B4F; --green-bg:#E6F0EA; --red:#A03D2E; --red-bg:#F6E6E1;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.7}
 h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;line-height:1.2;letter-spacing:-.01em}
 h1{font-size:clamp(28px,4.5vw,42px);margin-bottom:14px}
@@ -128,3 +128,6 @@ td.hl{background:#FDF9EE;font-weight:600}
   /* Tabellen: Header duerfen umbrechen, damit breite Desktop-Fenster keinen Scrollbalken zeigen */
   th{white-space:normal}
 }
+
+/* Kleine Preis-Buttons in Vergleichstabellen */
+.btn.tiny{padding:5px 10px;font-size:12px;border-radius:8px;margin-top:6px;white-space:nowrap}
