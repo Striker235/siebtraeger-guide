@@ -16,7 +16,7 @@ var klaroConfig = {
   lang: 'de',
   translations: {
     de: {
-      privacyPolicyUrl: 'impressum-datenschutz.html',
+      privacyPolicyUrl: 'impressum-datenschutz',
       consentNotice: {
         description: 'Diese Website setzt aktuell keine Tracking-Cookies. F\u00fcr k\u00fcnftige Dienste (z.\u00a0B. Google-Ads-Conversion-Messung) bitten wir vorab um deine Einwilligung. Details in der {privacyPolicy}.',
         learnMore: 'Einstellungen'

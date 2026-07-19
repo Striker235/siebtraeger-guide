@@ -21,16 +21,16 @@ Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) e
 ## Seiten
 
 - [Startseite](https://siebtraeger-guide.de/): Testsieger-Überblick, Grundlagen in 60 Sekunden, FAQ
-- [Einsteiger-Vergleich bis 450 €](https://siebtraeger-guide.de/vergleich-einsteiger.html): 5 Maschinen mit Punktetabelle
-- [Mittelklasse-Vergleich 400–900 €](https://siebtraeger-guide.de/vergleich-mittelklasse.html): 5 Maschinen mit Punktetabelle
-- [Premium-Vergleich ab 1.300 €](https://siebtraeger-guide.de/vergleich-premium.html): 5 Maschinen mit Punktetabelle
-- [Mühlen-Test](https://siebtraeger-guide.de/muehlen.html): 3 Espressomühlen mit Punktetabelle (Eureka Mignon Specialità, Sage Smart Grinder Pro, Graef CM 802)
-- [Zubehör & Bohnen](https://siebtraeger-guide.de/zubehoer.html): priorisierte Grundausstattung + 3 Bohnen-Empfehlungen mit Amazon-Direktlinks
-- [Kaufberatung](https://siebtraeger-guide.de/kaufberatung.html): Die 8 wichtigsten Kaufkriterien, Budget-Tabelle, typische Fehlkäufe
-- [Preisvergleich: Wo kaufen?](https://siebtraeger-guide.de/preisvergleich.html): Amazon vs. Fachhändler (roastmarket) vs. Hersteller-Shops – 9 Kriterien mit Kaufweg-Empfehlung
-- [Erfahrungsbericht Sage Bambino Plus](https://siebtraeger-guide.de/erfahrungsbericht-sage-bambino-plus.html)
-- [Erfahrungsbericht Sage Barista Express](https://siebtraeger-guide.de/erfahrungsbericht-sage-barista-express.html)
-- [Erfahrungsbericht Lelit Bianca V3](https://siebtraeger-guide.de/erfahrungsbericht-lelit-bianca.html)
+- [Einsteiger-Vergleich bis 450 €](https://siebtraeger-guide.de/vergleich-einsteiger): 5 Maschinen mit Punktetabelle
+- [Mittelklasse-Vergleich 400–900 €](https://siebtraeger-guide.de/vergleich-mittelklasse): 5 Maschinen mit Punktetabelle
+- [Premium-Vergleich ab 1.300 €](https://siebtraeger-guide.de/vergleich-premium): 5 Maschinen mit Punktetabelle
+- [Mühlen-Test](https://siebtraeger-guide.de/muehlen): 3 Espressomühlen mit Punktetabelle (Eureka Mignon Specialità, Sage Smart Grinder Pro, Graef CM 802)
+- [Zubehör & Bohnen](https://siebtraeger-guide.de/zubehoer): priorisierte Grundausstattung + 3 Bohnen-Empfehlungen mit Amazon-Direktlinks
+- [Kaufberatung](https://siebtraeger-guide.de/kaufberatung): Die 8 wichtigsten Kaufkriterien, Budget-Tabelle, typische Fehlkäufe
+- [Preisvergleich: Wo kaufen?](https://siebtraeger-guide.de/preisvergleich): Amazon vs. Fachhändler (roastmarket) vs. Hersteller-Shops – 9 Kriterien mit Kaufweg-Empfehlung
+- [Erfahrungsbericht Sage Bambino Plus](https://siebtraeger-guide.de/erfahrungsbericht-sage-bambino-plus)
+- [Erfahrungsbericht Sage Barista Express](https://siebtraeger-guide.de/erfahrungsbericht-sage-barista-express)
+- [Erfahrungsbericht Lelit Bianca V3](https://siebtraeger-guide.de/erfahrungsbericht-lelit-bianca)
 
 ## Zubehör (Stand 19.07.2026)
 - Neue Seite /zubehoer.html: priorisierte Grundausstattung (Espressowaage, Tamper 58/54/51 mm, Milchkännchen, WDT-Tool, Distributor, Abklopfbehälter, Reinigungstabletten, Puck Screen) sowie drei Bohnen-Empfehlungen für Siebträger (Caffè Borbone Selection Crema Classica, Lavazza Crema e Aroma, Drago Mocambo Gran Bar) – alle mit Amazon-Direktlink auf die jeweilige ASIN.

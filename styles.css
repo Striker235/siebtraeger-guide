@@ -139,3 +139,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #8a
 @media (max-width:700px){.tbl-wrap::before{content:"\2194 Tabelle seitlich wischbar";display:block;font-size:12px;color:#6f6459;padding:6px 10px}}
 :root{--faint:#75695E} /* Kontrast >=4.5:1 (vorher #98897B) */
 .badge.gold{color:#7A5A1C} /* Kontrastfix */
+
+/* Zweizeilige (Vorgängermodell)-Buttons */
+.btn.small { text-align:center;line-height:1.35 }
