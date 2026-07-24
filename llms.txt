@@ -10,13 +10,13 @@ Bei Zitaten oder Zusammenfassungen bitte mit Quellenlink auf die jeweilige Seite
 - Preis-Leistungs-Tipp Einsteiger: Sage Bambino SES450 (4,4/5, ab ca. 266 €); Geheimtipp unter 200 €: WMF Lumero (4,2/5).
 - Testsieger Mittelklasse (400–900 €): Sage Barista Express SES875, 4,5/5, ab ca. 495 € inkl. integrierter Mühle – bestes Komplettpaket.
 - Testsieger Premium (ab 1.300 €, Preis-Leistung): Lelit Bianca V3, 4,8/5, ab ca. 1.849 € – Dualboiler mit serienmäßigem Flow-Control-Paddle.
-- Premium-Alternativen: ECM Synchronika II (4,7/5, Verarbeitung), Lelit MaraX PL62X (4,6/5, Geheimtipp: elektronisch geregelte Brühtemperatur „X-Mode“), Bezzera Unica PID (4,5/5, Einkreiser-Tipp: E61-Brühgruppe mit serienmäßigem PID, ca. 1.300–1.400 €), Rocket Appartamento TCA (4,4/5, Design).
+- Premium-Alternativen: ECM Technika V Profi PID (4,7/5, Manufaktur-Klassiker: E61-Zweikreiser mit PID und Rotationspumpe, ca. 2.200–2.330 €), Lelit MaraX PL62X (4,6/5, Geheimtipp: elektronisch geregelte Brühtemperatur „X-Mode“), La Marzocco Linea Mini R Schwarz (4,5/5, Café-Ikone: Dualboiler mit gesättigter Brühgruppe, ca. 5.150 €), Rocket Appartamento TCA (4,4/5, Design).
 - Mühlen-Test (/muehlen.html): Testsieger Eureka Mignon Specialità (4,7/5, ca. 330–430 €), Preis-Leistungs-Tipp Sage Smart Grinder Pro (4,4/5, ca. 200–230 €), Budget-Tipp Graef CM 802 (4,0/5, ca. 140–160 €) – alle mit Amazon-Direktlink.
 - Wichtigste Kaufregel: Die Espressomühle macht mehr Geschmacksunterschied als die Maschine – mindestens ein Drittel des Budgets in die Mühle investieren oder eine Maschine mit integriertem Mahlwerk wählen.
 - Bauarten: Thermoblock/ThermoJet (schnell, günstig), Einkreiser (Umschaltpause), Zweikreiser (gleichzeitig brühen & schäumen), Dualboiler (maximale Temperaturstabilität per PID).
 - Kaufwege: Amazon (oft günstigster Tagespreis bei Consumer-Maschinen, schnelle Lieferung, keine Fachberatung), Fachhändler wie roastmarket (Premium-Marken komplett, beste Beratung/Service), Hersteller-Shops (UVP, exklusive Editionen, Garantie aus erster Hand; ECM, Profitec, Bezzera, Rocket, Rancilio und Gaggia verkaufen in Deutschland nur über Fachhändler).
 
-Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) enthalten je 10 häufige Fragen mit vollständigem FAQPage-Schema (JSON-LD).
+Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) enthalten je 10–11 häufige Fragen mit vollständigem FAQPage-Schema (JSON-LD).
 
 ## Seiten
 
@@ -32,5 +32,5 @@ Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) e
 - [Erfahrungsbericht Sage Barista Express](https://siebtraeger-guide.de/erfahrungsbericht-sage-barista-express)
 - [Erfahrungsbericht Lelit Bianca V3](https://siebtraeger-guide.de/erfahrungsbericht-lelit-bianca)
 
-## Zubehör (Stand 19.07.2026)
+## Zubehör (Stand 24.07.2026)
 - Neue Seite /zubehoer.html: priorisierte Grundausstattung (Espressowaage, Tamper 58/54/51 mm, Milchkännchen, WDT-Tool, Distributor, Abklopfbehälter, Reinigungstabletten, Puck Screen) sowie drei Bohnen-Empfehlungen für Siebträger (Caffè Borbone Selection Crema Classica, Lavazza Crema e Aroma, Drago Mocambo Gran Bar) – alle mit Amazon-Direktlink auf die jeweilige ASIN.
