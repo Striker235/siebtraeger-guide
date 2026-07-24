@@ -5,7 +5,9 @@
 
 // ---------------------------------------------------------------------
 // 1) GOOGLE ADS EINSTELLUNGEN
-//    Amazon, Roastmarket & De'Longhi sind fertig konfiguriert (echte Labels).
+//    Amazon & Roastmarket sind fertig konfiguriert (echte Labels).
+//    De'Longhi bleibt als Platzhalter fuer die Zukunft - solange das
+//    Label mit 'LABEL_' beginnt, wird dafuer nichts gesendet.
 // ---------------------------------------------------------------------
 var GADS_CONVERSION_ID = 'AW-18327569084';
 
@@ -22,10 +24,9 @@ var GADS_CONVERSIONS = {
     pattern: /awin1\.com.*(awinmid=16916|roastmarket)|(^|\.)roastmarket\.de/i
   },
   delonghi: {
-    label: '_DqHCLyX7dUcELyFoqNE',   // Affiliate-Klick De'Longhi (Google Ads: "Klick auf externen Link (1)")
-    value: 1.00,
-    // De'Longhi laeuft ueber das Awin-Netzwerk (awinmid=22915) oder direkt ueber delonghi.de/.com
-    pattern: /awin1\.com.*(awinmid=22915|delonghi)|(^|\.)delonghi\.(de|com)/i
+    label: 'LABEL_DELONGHI',         // <-- erst ersetzen, wenn du kuenftig
+    value: 1.00,                     //     direkte De'Longhi-Links setzt
+    pattern: /(^|\.)delonghi\.(de|com)/i
   }
 };
 
