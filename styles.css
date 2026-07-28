@@ -167,3 +167,44 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #8a
 
 /* === Punkte-Labels: gold statt nur gruen === */
 .seal-mini.brown{background:#EFE4DA;color:#7A5230}
+
+
+/* =====================================================================
+   Produktbilder: Tabellen-Thumbnails, Lightbox, Testsieger-Lifestyle
+   (Rollout 28.07.2026)
+   ===================================================================== */
+
+/* Bildzeile in den Vergleichstabellen - nur Desktop & Tablet */
+.row-img td{padding:12px 14px;text-align:center;background:#FCFAF5;vertical-align:middle}
+.p-thumb{display:inline-block;padding:0;border:1px solid var(--line);background:#fff;border-radius:10px;
+  cursor:zoom-in;line-height:0;overflow:hidden;transition:border-color .15s ease,transform .15s ease,box-shadow .15s ease}
+.p-thumb:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.10)}
+.p-thumb img{width:104px;height:104px;object-fit:contain;display:block}
+/* Mobile Auslieferung: keine Bilder in der Tabelle */
+@media (max-width:699px){.row-img{display:none}}
+
+/* Lifestyle-Bild beim Testsieger - gross, zentriert, auch mobil */
+.winner-shot{margin:24px auto 28px;max-width:620px;text-align:center}
+.winner-shot img{width:100%;height:auto;display:block;border-radius:16px;border:1px solid var(--line)}
+.winner-shot figcaption{margin-top:10px;font-size:13px;color:var(--faint)}
+
+/* Lightbox (gleicher Tab, grosses X oben rechts) */
+body.lb-open{overflow:hidden}
+.lightbox{position:fixed;inset:0;z-index:9999;background:rgba(26,20,16,.94);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;padding:76px 20px 40px}
+.lightbox img{max-width:min(1000px,92vw);max-height:76vh;width:auto;height:auto;border-radius:14px;background:#fff}
+.lightbox .lb-cap{margin-top:14px;color:#F2E5D8;font-size:14.5px;text-align:center;max-width:70ch}
+.lb-close{position:absolute;top:12px;right:16px;width:60px;height:60px;display:flex;align-items:center;justify-content:center;
+  font-size:44px;line-height:1;background:transparent;border:0;color:#fff;cursor:pointer;font-family:inherit;border-radius:12px}
+.lb-close:hover{background:rgba(255,255,255,.14)}
+.lb-close:focus-visible{outline:3px solid #fff;outline-offset:2px}
+
+/* Zubehoer-Prioritaeten: Pflicht = gruen, Sehr sinnvoll = gold */
+.btn.green{background:var(--green);border-color:var(--green);color:#fff}
+.btn.green:hover{background:#24553F;border-color:#24553F}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn.gold:hover{background:#9A7127;border-color:#9A7127}
+
+/* Icons in Teilen-/Merken-Buttons */
+.share-btn{align-items:center}
+.share-btn .ic{width:16px;height:16px;flex:0 0 16px;fill:currentColor}

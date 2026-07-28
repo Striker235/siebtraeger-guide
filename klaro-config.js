@@ -6,6 +6,7 @@
 // ---------------------------------------------------------------------
 // 1) GOOGLE ADS EINSTELLUNGEN
 //    Amazon & Roastmarket sind fertig konfiguriert (echte Labels).
+//    Coffee Circle ist vorbereitet - Label in Google Ads anlegen.
 //    De'Longhi bleibt als Platzhalter fuer die Zukunft - solange das
 //    Label mit 'LABEL_' beginnt, wird dafuer nichts gesendet.
 // ---------------------------------------------------------------------
@@ -22,6 +23,17 @@ var GADS_CONVERSIONS = {
     value: 1.00,
     // Roastmarket laeuft ueber das Awin-Netzwerk (awinmid=16916)
     pattern: /awin1\.com.*(awinmid=16916|roastmarket)|(^|\.)roastmarket\.de/i
+  },
+  coffeecircle: {
+    // Coffee Circle laeuft ueber das Awin-Netzwerk (awinmid=14018).
+    // Die roastmarket-Regel greift hier NICHT (die matcht nur awinmid=16916),
+    // deshalb braucht Coffee Circle eine eigene Conversion-Aktion.
+    // TODO: In Google Ads eine Conversion "Affiliate-Klick Coffee Circle"
+    //       anlegen und deren Label hier eintragen. Solange das Label mit
+    //       'LABEL_' beginnt, wird bewusst nichts gesendet.
+    label: 'LABEL_COFFEECIRCLE',
+    value: 1.00,
+    pattern: /awin1\.com.*awinmid=14018|(^|\.)coffeecircle\.com/i
   },
   delonghi: {
     label: 'LABEL_DELONGHI',         // <-- erst ersetzen, wenn du kuenftig
@@ -66,7 +78,7 @@ function loadGoogleAds() {
 }
 
 // ---------------------------------------------------------------------
-// 3) KLICK-TRACKING fuer Affiliate-Links (Amazon / Roastmarket / De'Longhi)
+// 3) KLICK-TRACKING fuer Affiliate-Links (Amazon / Roastmarket / Coffee Circle / De'Longhi)
 //    Feuert nur, wenn Consent erteilt wurde (gadsLoaded === true).
 // ---------------------------------------------------------------------
 document.addEventListener('click', function (e) {
@@ -129,7 +141,7 @@ var klaroConfig = {
       },
       'google-ads': {
         title: 'Google Ads Conversion-Tracking',
-        description: 'Misst, ob ein Besuch \u00fcber eine Google-Anzeige zustande kam und ob anschlie\u00dfend ein Partner-Link (z.\u00a0B. Amazon oder roastmarket) angeklickt wurde. Wird erst nach deiner Einwilligung geladen.'
+        description: 'Misst, ob ein Besuch \u00fcber eine Google-Anzeige zustande kam und ob anschlie\u00dfend ein Partner-Link (z.\u00a0B. Amazon, roastmarket oder Coffee Circle) angeklickt wurde. Wird erst nach deiner Einwilligung geladen.'
       },
       ok: 'Alle akzeptieren',
       decline: 'Ablehnen',
