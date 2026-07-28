@@ -208,3 +208,28 @@ body.lb-open{overflow:hidden}
 /* Icons in Teilen-/Merken-Buttons */
 .share-btn{align-items:center}
 .share-btn .ic{width:16px;height:16px;flex:0 0 16px;fill:currentColor}
+
+/* =====================================================================
+   Layout-Feinschliff Tabellen & Buttons (28.07.2026)
+   ===================================================================== */
+
+/* Vergleichstabellen: alle Produktspalten exakt gleich breit
+   (table-layout:fixed verteilt die Breite gleichmaessig, unabhaengig vom Inhalt) */
+.tbl-wrap table{table-layout:fixed;min-width:760px}
+.tbl-wrap th,.tbl-wrap td{overflow-wrap:break-word;hyphens:auto}
+
+/* Preis-Buttons in Tabellenzellen: gestapelt, einheitliche Breite,
+   gleicher Abstand - auch bei langen Labels wie "(Vorgängermodell)" */
+td .btn.tiny{display:block;width:100%;max-width:210px;text-align:center;
+  white-space:normal;line-height:1.35;margin:6px 0 0}
+
+/* Buttons in CTA-Boxen (ausserhalb von .btn-row): sauberer Abstand nebeneinander */
+.cta-box .btn{margin-right:10px}
+.cta-box .btn:last-child{margin-right:0}
+
+/* Mobile: Buttons volle Breite, kein Versatz */
+@media(max-width:640px){
+  .btn-row .btn{flex:1 1 100%;text-align:center}
+  .cta-box .btn{display:block;margin:14px 0 0;text-align:center}
+  td .btn.tiny{max-width:none}
+}
