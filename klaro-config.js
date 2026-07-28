@@ -110,7 +110,7 @@ var klaroConfig = {
     de: {
       privacyPolicyUrl: 'impressum-datenschutz',
       consentNotice: {
-        description: 'Wir nutzen Google-Ads-Conversion-Messung, um zu erkennen, ob Besucher \u00fcber unsere Anzeigen zu einem H\u00e4ndler weiterklicken. Das passiert nur mit deiner Einwilligung. Details in der {privacyPolicy}.',
+        description: 'Wir nutzen Google-Ads-Conversion-Messung, um zu erkennen, ob Besucher \u00fcber unsere Anzeigen zu einem H\u00e4ndler weiterklicken. Diese Cookies helfen uns, diese Website zu finanzieren \u2013 sie bleibt dadurch f\u00fcr dich kostenlos. Das passiert nur mit deiner Einwilligung. Details in der {privacyPolicy}.',
         learnMore: 'Einstellungen'
       },
       consentModal: {
