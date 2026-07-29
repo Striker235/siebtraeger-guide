@@ -60,6 +60,9 @@ a{color:var(--accent)}
 /* Tables */
 .tbl-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px;margin:20px 0}
 table{width:100%;border-collapse:collapse;font-size:14px;min-width:620px}
+.tbl-wrap.eq table{table-layout:fixed}
+.tbl-wrap.eq th,.tbl-wrap.eq td{overflow-wrap:break-word;white-space:normal}
+.tbl-wrap.eq col.lbl{width:17%}
 th{background:var(--cream);text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--accent-dark);padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
 td{padding:10px 14px;border-bottom:1px solid #F1EBDF;vertical-align:top}
 tr:last-child td{border-bottom:none}
