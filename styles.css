@@ -211,3 +211,18 @@ body.lb-open{overflow:hidden}
 /* Icons in Teilen-/Merken-Buttons */
 .share-btn{align-items:center}
 .share-btn .ic{width:16px;height:16px;flex:0 0 16px;fill:currentColor}
+
+/* === Kaffeebohnen-Banner direkt unter dem Header === */
+.bean-banner{background:#090909;color:#fff;border-bottom:1px solid #262626}
+.bean-banner-inner{display:flex;align-items:center;justify-content:center;gap:22px;padding-top:10px;padding-bottom:10px}
+.bean-banner-copy{display:flex;align-items:center;gap:10px;font-size:14px;line-height:1.4}
+.bean-banner-copy b{font-weight:800}
+.bean-icon{font-size:22px;line-height:1;filter:saturate(.8)}
+.bean-banner-btn{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#fff;color:#111;border:1px solid #fff;border-radius:7px;padding:8px 14px;font-size:13px;font-weight:800;text-decoration:none;transition:background .15s,color .15s,transform .15s}
+.bean-banner-btn:hover{background:#00b1eb;border-color:#00b1eb;color:#00212d;transform:translateY(-1px)}
+.bean-banner-btn:focus-visible{outline:3px solid #00b1eb;outline-offset:3px}
+@media(max-width:640px){
+  .bean-banner-inner{align-items:stretch;flex-direction:column;gap:8px;padding-top:10px;padding-bottom:10px}
+  .bean-banner-copy{align-items:flex-start;font-size:13px}
+  .bean-banner-btn{width:100%;}
+}
