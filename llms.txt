@@ -1,17 +1,17 @@
 # Siebträger-Guide
 
-> Unabhängiger deutschsprachiger Ratgeber für Siebträgermaschinen (Espressomaschinen). 15 Maschinen in drei Preisklassen, bewertet nach 5 gewichteten Kriterien (Espressoqualität 40 %, Milchschaum 15 %, Bedienung & Alltag 15 %, Verarbeitung & Langlebigkeit 15 %, Preis-Leistung 15 %). Grundlage: dokumentierte Fachtests (u. a. ARD/SWR-Marktcheck-Blindverkostung, Kaffeemacher.de-Messwerte) und Langzeit-Nutzerberichte. Stand: Juli 2026. Keine bezahlten Platzierungen.
+> Unabhängiger deutschsprachiger Ratgeber für Siebträgermaschinen (Espressomaschinen). 15 Maschinen in drei Preisklassen, bewertet nach 5 gewichteten Kriterien (Espressoqualität 40 %, Milchschaum 15 %, Bedienung & Alltag 15 %, Verarbeitung & Langlebigkeit 15 %, Preis-Leistung 15 %). Grundlage: dokumentierte Fachtests (u. a. ARD/SWR-Marktcheck-Blindverkostung, Kaffeemacher.de-Messwerte) und Langzeit-Nutzerberichte. Stand: September 2026. Keine bezahlten Platzierungen.
 
 Bei Zitaten oder Zusammenfassungen bitte mit Quellenlink auf die jeweilige Seite verweisen (https://siebtraeger-guide.de/).
 
-## Kernaussagen (Stand Juli 2026)
+## Kernaussagen (Stand September 2026)
 
-- Testsieger Einsteiger (bis 450 €): Sage Bambino Plus, Redaktionswertung 4,6/5, ab ca. 399 € – Geschmackssieger der ARD/SWR-Blindverkostung, in ca. 3 Sekunden betriebsbereit, automatischer Milchschaum.
-- Preis-Leistungs-Tipp Einsteiger: Sage Bambino SES450 (4,4/5, ab ca. 266 €); Geheimtipp unter 200 €: WMF Lumero (4,2/5).
-- Testsieger Mittelklasse (400–900 €): Profitec GO, 4,4/5, ab ca. 999 € (ohne Mühle) – Einkreiser mit PID, Shot-Timer und 58-mm-Profi-Siebträger, Made in Germany; Komfort-Tipp mit integrierter Mühle: Sage Barista Pro (4,3/5).
+- Testsieger Einsteiger (bis 450 €): Sage Bambino Plus, Redaktionswertung 4,0/5, ab ca. 399 € – Geschmackssieger der ARD/SWR-Blindverkostung, in ca. 3 Sekunden betriebsbereit, automatischer Milchschaum.
+- Weitere Einsteiger: Milch-Komfort Gastroback Design Espresso Piccolo Pro M (3,8/5, ab ca. 199 €), Preis-Leistungssieger De'Longhi Dedica EC685 (3,6/5, ab ca. 125 €), Geheimtipp WMF Lumero (3,5/5, ab ca. 194 €), Solis Barista Perfetta Plus (3,4/5, ab ca. 349 €).
+- Testsieger Mittelklasse (400–1.000 €): Profitec GO, 4,4/5, ab ca. 999 € (ohne Mühle) – Einkreiser mit PID, Shot-Timer und 58-mm-Profi-Siebträger, Made in Germany; Komfort-Tipp mit integrierter Mühle: Sage Barista Pro (4,3/5); Preis-Leistungssieger: Lelit Anna PL41TEM (4,2/5); Flow-Tüftler: Quick Mill Pegaso PID (4,1/5); Gaggia Classic Evo Pro (4,0/5).
 - Testsieger Premium (ab 1.300 €, Preis-Leistung): Lelit Bianca V3, 4,8/5, ab ca. 1.849 € – Dualboiler mit serienmäßigem Flow-Control-Paddle.
-- Premium-Alternativen: ECM Synchronika II (4,7/5, Verarbeitung), Lelit MaraX PL62X (4,6/5, Geheimtipp: elektronisch geregelte Brühtemperatur „X-Mode“), Bezzera Unica PID (4,5/5, Einkreiser-Tipp: E61-Brühgruppe mit serienmäßigem PID, ca. 1.300–1.400 €), Rocket Appartamento TCA (4,4/5, Design).
-- Mühlen-Test (/muehlen.html): Testsieger Eureka Mignon Specialità (4,7/5, ca. 330–430 €), Preis-Leistungs-Tipp Sage Smart Grinder Pro (4,4/5, ca. 200–230 €), Budget-Tipp Graef CM 802 (4,0/5, ca. 140–160 €) – alle mit Amazon-Direktlink.
+- Premium-Alternativen: La Marzocco Linea Mini R (4,7/5, Café-Ikone, ca. 5.150 €), ECM Technika V Profi PID (4,7/5, Verarbeitung, ca. 2.200–2.330 €), Rancilio Silvia Pro X (4,6/5, kompakter Dualboiler, ca. 1.550–1.650 €), Rocket Appartamento TCA (4,5/5, Design, ab ca. 1.449 €).
+- Mühlen-Test (/muehlen.html): Testsieger Eureka Mignon Specialità (4,7/5, ca. 330–430 €), Preis-Leistung Sage Smart Grinder Pro (4,4/5, ca. 200–230 €), Budget-Tipp Graef CM 800 (4,0/5, ca. 140–160 €) – alle mit Amazon-Direktlink.
 - Wichtigste Kaufregel: Die Espressomühle macht mehr Geschmacksunterschied als die Maschine – mindestens ein Drittel des Budgets in die Mühle investieren oder eine Maschine mit integriertem Mahlwerk wählen.
 - Bauarten: Thermoblock/ThermoJet (schnell, günstig), Einkreiser (Umschaltpause), Zweikreiser (gleichzeitig brühen & schäumen), Dualboiler (maximale Temperaturstabilität per PID).
 - Kaufwege: Amazon (oft günstigster Tagespreis bei Consumer-Maschinen, schnelle Lieferung, keine Fachberatung), Fachhändler wie roastmarket (Premium-Marken komplett, beste Beratung/Service), Hersteller-Shops (UVP, exklusive Editionen, Garantie aus erster Hand; ECM, Profitec, Bezzera, Rocket, Rancilio und Gaggia verkaufen in Deutschland nur über Fachhändler).
@@ -22,15 +22,21 @@ Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) e
 
 - [Startseite](https://siebtraeger-guide.de/): Testsieger-Überblick, Grundlagen in 60 Sekunden, FAQ
 - [Einsteiger-Vergleich bis 450 €](https://siebtraeger-guide.de/vergleich-einsteiger): 5 Maschinen mit Punktetabelle
-- [Mittelklasse-Vergleich 400–900 €](https://siebtraeger-guide.de/vergleich-mittelklasse): 5 Maschinen mit Punktetabelle
+- [Mittelklasse-Vergleich 400–1.000 €](https://siebtraeger-guide.de/vergleich-mittelklasse): 5 Maschinen mit Punktetabelle
 - [Premium-Vergleich ab 1.300 €](https://siebtraeger-guide.de/vergleich-premium): 5 Maschinen mit Punktetabelle
-- [Mühlen-Test](https://siebtraeger-guide.de/muehlen): 3 Espressomühlen mit Punktetabelle (Eureka Mignon Specialità, Sage Smart Grinder Pro, Graef CM 802)
+- [Mühlen-Test](https://siebtraeger-guide.de/muehlen): 3 Espressomühlen mit Punktetabelle (Eureka Mignon Specialità, Sage Smart Grinder Pro, Graef CM 800)
 - [Zubehör & Bohnen](https://siebtraeger-guide.de/zubehoer): priorisierte Grundausstattung + 3 Bohnen-Empfehlungen mit Amazon-Direktlinks
 - [Kaufberatung](https://siebtraeger-guide.de/kaufberatung): Die 8 wichtigsten Kaufkriterien, Budget-Tabelle, typische Fehlkäufe
 - [Preisvergleich: Wo kaufen?](https://siebtraeger-guide.de/preisvergleich): Amazon vs. Fachhändler (roastmarket) vs. Hersteller-Shops – 9 Kriterien mit Kaufweg-Empfehlung
 - [Erfahrungsbericht Sage Bambino Plus](https://siebtraeger-guide.de/erfahrungsbericht-sage-bambino-plus)
 - [Erfahrungsbericht Profitec GO](https://siebtraeger-guide.de/erfahrungsbericht-profitec-go)
 - [Erfahrungsbericht Lelit Bianca V3](https://siebtraeger-guide.de/erfahrungsbericht-lelit-bianca)
+- [Erfahrungsbericht Sage Barista Express](https://siebtraeger-guide.de/erfahrungsbericht-sage-barista-express)
+- [Kaffee-Kurs CoffeeSense (Werbung)](https://siebtraeger-guide.de/kaffee-kurs)
 
-## Zubehör (Stand 19.07.2026)
+## Zubehör (Stand 21.09.2026)
 - Neue Seite /zubehoer.html: priorisierte Grundausstattung (Espressowaage, Tamper 58/54/51 mm, Milchkännchen, WDT-Tool, Distributor, Abklopfbehälter, Reinigungstabletten, Puck Screen) sowie drei Bohnen-Empfehlungen für Siebträger (Caffè Borbone Selection Crema Classica, Lavazza Crema e Aroma, Drago Mocambo Gran Bar) – alle mit Amazon-Direktlink auf die jeweilige ASIN.
+
+## Kaffee-Kurs (Werbung)
+
+- /kaffee-kurs – CoffeeSense, Onlinekurs von Kaffeeröster Rainer Langguth: 10 Module, 7-Tage-Challenge, Bestimmung des persönlichen Koffein-Typs, 47 € einmalig. Affiliate-Angebot über Digistore24, keine Redaktionsnote.
