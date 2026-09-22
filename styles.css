@@ -62,7 +62,7 @@ a{color:var(--accent)}
 table{width:100%;border-collapse:collapse;font-size:14px;min-width:620px}
 .tbl-wrap.eq table{table-layout:fixed}
 .tbl-wrap.eq th,.tbl-wrap.eq td{overflow-wrap:break-word;white-space:normal}
-.tbl-wrap.eq col.lbl{width:17%}
+.tbl-wrap.eq col.lbl{width:21%}
 th{background:var(--cream);text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--accent-dark);padding:11px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
 td{padding:10px 14px;border-bottom:1px solid #F1EBDF;vertical-align:top}
 tr:last-child td{border-bottom:none}
@@ -314,3 +314,24 @@ body.lb-open{overflow:hidden}
   .pv-offers li .btn{grid-column:2}
   .pv-bar{gap:10px}
 }
+
+
+/* =====================================================================
+   Tabellen-Spaltenbreiten, guenstigster Anbieter, Inline-Gutscheincode
+   (Update September 2026)
+   ===================================================================== */
+.tbl-wrap.eq table{min-width:820px}
+.tbl-wrap.eq th{white-space:normal;hyphens:auto}
+.tbl-wrap.eq td{hyphens:auto}
+.tbl-wrap.eq .btn.tiny{white-space:normal;display:inline-block;max-width:100%;text-align:center;line-height:1.3}
+
+/* Guenstigster Anbieter in den Vergleichstabellen */
+.cheap-tag{display:inline-block;margin:7px 0 3px;padding:2px 8px;border-radius:5px;
+  background:#E5F3E9;color:#1E6B3A;font-size:11px;font-weight:800;letter-spacing:.02em;line-height:1.35}
+.cheap-tag::before{content:"\2713\00a0"}
+.btn.tiny.is-cheapest,.btn.tiny.amazon.is-cheapest{background:var(--green);border-color:var(--green);color:#fff;font-weight:700}
+.btn.tiny.is-cheapest:hover,.btn.tiny.amazon.is-cheapest:hover{background:#24553F;border-color:#24553F;color:#fff}
+
+/* Gutscheincode im Fliesstext (Preisvergleich-Hinweis) */
+.coupon-code.inline{padding:3px 10px;font-size:13.5px;vertical-align:middle;margin:0 3px}
+.coupon-code.inline .copy-hint{font-size:10.5px}

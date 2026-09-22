@@ -1,5 +1,5 @@
 window.SG_PREISE={
- "stand": "21.09.2026",
+ "stand": "September 2026",
  "produkte": [
   {
    "id": "einsteiger-bambino-plus",
@@ -63,7 +63,7 @@ window.SG_PREISE={
    "id": "einsteiger-dedica",
    "kat": "Einsteiger",
    "name": "De'Longhi Dedica Style EC685.M",
-   "note": "3,6",
+   "note": "3,5",
    "label": "Preis-Leistungssieger",
    "thumb": "img/thumb/delonghi-dedica-studio.jpg",
    "angebote": [
