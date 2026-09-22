@@ -76,6 +76,8 @@ window.SG_PREISE={
     {
      "shop": "Hersteller",
      "preis": 154.99,
+     "preis_typ": "aktueller Herstellerpreis",
+     "uvp": 254.0,
      "url": "https://www.awin1.com/cread.php?awinmid=22915&awinaffid=2988869&clickref=einsteiger-dedica&ued=https%3A%2F%2Fwww.delonghi.com%2Fde-de%2Fp%2Fdedica-siebtragermaschinen-dedica-style-siebtragermaschine-ec685.m%2FEC685.M%2BEX%253A4.html%3Fpid%3D0132106266",
      "kauf": true
     }

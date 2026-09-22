@@ -6,15 +6,15 @@ Bei Zitaten oder Zusammenfassungen bitte mit Quellenlink auf die jeweilige Seite
 
 ## Kernaussagen (Stand September 2026)
 
-- Testsieger Einsteiger (bis 450 €): Sage Bambino Plus, Redaktionswertung 4,0/5, ab ca. 399 € – Geschmackssieger der ARD/SWR-Blindverkostung, in ca. 3 Sekunden betriebsbereit, automatischer Milchschaum.
-- Weitere Einsteiger: Milch-Komfort Gastroback Design Espresso Piccolo Pro M (3,8/5, ab ca. 199 €), Preis-Leistungssieger De'Longhi Dedica EC685 (3,6/5, ab ca. 125 €), Geheimtipp WMF Lumero (3,5/5, ab ca. 194 €), Solis Barista Perfetta Plus (3,4/5, ab ca. 349 €).
-- Testsieger Mittelklasse (400–1.000 €): Profitec GO, 4,4/5, ab ca. 999 € (ohne Mühle) – Einkreiser mit PID, Shot-Timer und 58-mm-Profi-Siebträger, Made in Germany; Komfort-Tipp mit integrierter Mühle: Sage Barista Pro (4,3/5); Preis-Leistungssieger: Lelit Anna PL41TEM (4,2/5); Flow-Tüftler: Quick Mill Pegaso PID (4,1/5); Gaggia Classic Evo Pro (4,0/5).
-- Testsieger Premium (ab 1.300 €, Preis-Leistung): Lelit Bianca V3, 4,8/5, ab ca. 1.849 € – Dualboiler mit serienmäßigem Flow-Control-Paddle.
-- Premium-Alternativen: La Marzocco Linea Mini R (4,7/5, Café-Ikone, ca. 5.150 €), ECM Technika V Profi PID (4,7/5, Verarbeitung, ca. 2.200–2.330 €), Rancilio Silvia Pro X (4,6/5, kompakter Dualboiler, ca. 1.550–1.650 €), Rocket Appartamento TCA (4,5/5, Design, ab ca. 1.449 €).
+- Testsieger Einsteiger (bis 450 €): Sage Bambino Plus, Redaktionswertung 4,0/5, ab ca. 439,99 € – Geschmackssieger der ARD/SWR-Blindverkostung, in ca. 3 Sekunden betriebsbereit, automatischer Milchschaum.
+- Weitere Einsteiger: Milch-Komfort Gastroback Design Espresso Piccolo Pro M (3,8/5, ab ca. 216,81 €), Preis-Leistungssieger De'Longhi Dedica EC685 (3,6/5, ab ca. 124 €; UVP 254 €), Geheimtipp WMF Lumero (3,5/5, ab ca. 219,99 €), Solis Barista Perfetta Plus (3,4/5, ab ca. 369,99 €).
+- Testsieger Mittelklasse (400–1.000 €): Profitec GO, 4,4/5, ab ca. 939,99 € (ohne Mühle) – Einkreiser mit PID, Shot-Timer und 58-mm-Profi-Siebträger, Made in Germany; Komfort-Tipp mit integrierter Mühle: Sage Barista Pro (4,3/5); Preis-Leistungssieger: Lelit Anna PL41TEM (4,2/5); Flow-Tüftler: Quick Mill Pegaso PID (4,1/5); Gaggia Classic Evo Pro (4,0/5).
+- Testsieger Premium (ab 1.450 €, Preis-Leistung): Lelit Bianca V3, 4,8/5, ab ca. 2.299 € – Dualboiler mit serienmäßigem Flow-Control-Paddle.
+- Premium-Alternativen: La Marzocco Linea Mini R (4,7/5, Café-Ikone, ab ca. 5.176,50 €), ECM Technika V Profi PID (4,7/5, Verarbeitung, ab ca. 2.329,99 €), Rancilio Silvia Pro X (4,6/5, kompakter Dualboiler, ab ca. 1.499 €), Rocket Appartamento TCA (4,5/5, Design, ab ca. 1.448 €).
 - Mühlen-Test (/muehlen.html): Testsieger Eureka Mignon Specialità (4,7/5, ca. 330–430 €), Preis-Leistung Sage Smart Grinder Pro (4,4/5, ca. 200–230 €), Budget-Tipp Graef CM 800 (4,0/5, ca. 140–160 €) – alle mit Amazon-Direktlink.
 - Wichtigste Kaufregel: Die Espressomühle macht mehr Geschmacksunterschied als die Maschine – mindestens ein Drittel des Budgets in die Mühle investieren oder eine Maschine mit integriertem Mahlwerk wählen.
 - Bauarten: Thermoblock/ThermoJet (schnell, günstig), Einkreiser (Umschaltpause), Zweikreiser (gleichzeitig brühen & schäumen), Dualboiler (maximale Temperaturstabilität per PID).
-- Kaufwege: Amazon (oft günstigster Tagespreis bei Consumer-Maschinen, schnelle Lieferung, keine Fachberatung), Fachhändler wie roastmarket (Premium-Marken komplett, beste Beratung/Service), Hersteller-Shops (UVP, exklusive Editionen, Garantie aus erster Hand; ECM, Profitec, Bezzera, Rocket, Rancilio und Gaggia verkaufen in Deutschland nur über Fachhändler).
+- Kaufwege: Amazon (oft günstigster Tagespreis bei Consumer-Maschinen, schnelle Lieferung, keine Fachberatung), Fachhändler wie roastmarket (Premium-Marken komplett, beste Beratung/Service), Hersteller-Shops (meist UVP-nah, teils mit reduziertem Shop-Preis – z. B. De’Longhi Dedica: aktuell 154,99 € statt UVP 254,00 €; exklusive Editionen, Garantie aus erster Hand; ECM, Profitec, Bezzera, Rocket, Rancilio und Gaggia verkaufen in Deutschland nur über Fachhändler).
 
 Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) enthalten je 10 häufige Fragen mit vollständigem FAQPage-Schema (JSON-LD).
 
@@ -23,7 +23,7 @@ Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) e
 - [Startseite](https://siebtraeger-guide.de/): Testsieger-Überblick, Grundlagen in 60 Sekunden, FAQ
 - [Einsteiger-Vergleich bis 450 €](https://siebtraeger-guide.de/vergleich-einsteiger): 5 Maschinen mit Punktetabelle
 - [Mittelklasse-Vergleich 400–1.000 €](https://siebtraeger-guide.de/vergleich-mittelklasse): 5 Maschinen mit Punktetabelle
-- [Premium-Vergleich ab 1.300 €](https://siebtraeger-guide.de/vergleich-premium): 5 Maschinen mit Punktetabelle
+- [Premium-Vergleich ab 1.450 €](https://siebtraeger-guide.de/vergleich-premium): 5 Maschinen mit Punktetabelle
 - [Mühlen-Test](https://siebtraeger-guide.de/muehlen): 3 Espressomühlen mit Punktetabelle (Eureka Mignon Specialità, Sage Smart Grinder Pro, Graef CM 800)
 - [Zubehör & Bohnen](https://siebtraeger-guide.de/zubehoer): priorisierte Grundausstattung + 3 Bohnen-Empfehlungen mit Amazon-Direktlinks
 - [Kaufberatung](https://siebtraeger-guide.de/kaufberatung): Die 8 wichtigsten Kaufkriterien, Budget-Tabelle, typische Fehlkäufe
