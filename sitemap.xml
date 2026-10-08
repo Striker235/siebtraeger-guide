@@ -13,4 +13,10 @@
   <url><loc>https://siebtraeger-guide.de/erfahrungsbericht-lelit-bianca</loc><lastmod>2026-09-21</lastmod><priority>0.7</priority></url>
   <url><loc>https://siebtraeger-guide.de/kaffee-kurs</loc><lastmod>2026-09-21</lastmod><priority>0.8</priority></url>
   <url><loc>https://siebtraeger-guide.de/erfahrungsbericht-sage-barista-express</loc><lastmod>2026-09-21</lastmod><priority>0.7</priority></url>
+  <url>
+    <loc>https://siebtraeger-guide.de/kaffee-finder</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

@@ -40,3 +40,6 @@ Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) e
 ## Kaffee-Kurs (Werbung)
 
 - /kaffee-kurs – CoffeeSense, Onlinekurs von Kaffeeröster Rainer Langguth: 10 Module, 7-Tage-Challenge, Bestimmung des persönlichen Koffein-Typs, 47 € einmalig. Affiliate-Angebot über Digistore24, keine Redaktionsnote.
+
+## Kaffeebohnen-Finder
+Interaktiver Bohnen-Recommender mit 10 Fragen zu Zubereitung, Mahlform, Röstung, Stärke, Aroma, Milch, Bohnensorte, Herkunft, Preisrahmen und entkoffeiniertem Kaffee. Ergebnisse verlinken auf konkrete Amazon-Produktseiten mit dem Partner-Tag der Website. URL: https://siebtraeger-guide.de/kaffee-finder
