@@ -1,5 +1,6 @@
 window.SG_PREISE={
- "stand": "September 2026",
+ "stand": "Oktober 2026",
+ "pruefdatum": "2026-10-12",
  "produkte": [
   {
    "id": "einsteiger-bambino-plus",
@@ -17,8 +18,14 @@ window.SG_PREISE={
     },
     {
      "shop": "Amazon",
-     "preis": 479.9,
+     "preis": 529.9,
      "url": "https://www.amazon.de/dp/B07KYCPZK6?tag=siebtraegergu-21&th=1",
+     "kauf": true
+    },
+    {
+     "shop": "OTTO",
+     "preis": 529.9,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-bambino-plus&ued=https%3A%2F%2Fwww.otto.de%2Fsuche%2Fsage%2520bambino%2520plus%2F",
      "kauf": true
     },
     {
@@ -39,9 +46,9 @@ window.SG_PREISE={
    "thumb": "img/thumb/gastroback-piccolo-pro-m-studio.png",
    "angebote": [
     {
-     "shop": "Amazon",
-     "preis": 216.81,
-     "url": "https://www.amazon.de/dp/B0CJVBR53V?tag=siebtraegergu-21",
+     "shop": "OTTO",
+     "preis": 225.72,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-gastroback-piccolo-pro-m&ued=https%3A%2F%2Fwww.otto.de%2Fsuche%2Fgastroback%2520piccolo%2520pro%2520m%2F",
      "kauf": true
     },
     {
@@ -52,9 +59,16 @@ window.SG_PREISE={
     },
     {
      "shop": "Hersteller",
-     "preis": 285.99,
+     "preis": 259.99,
      "url": null,
      "kauf": false
+    },
+    {
+     "shop": "Amazon",
+     "preis": null,
+     "hinweis": "Tagespreis bei Amazon (zum Stichtag 12.10.2026 nicht belegt)",
+     "url": "https://www.amazon.de/dp/B0CJVBR53V?tag=siebtraegergu-21",
+     "kauf": true
     }
    ],
    "direkt": true
@@ -75,10 +89,17 @@ window.SG_PREISE={
     },
     {
      "shop": "Hersteller",
-     "preis": 154.99,
+     "preis": 149.0,
+     "shop_hinweis": "De’Longhi-Shop",
      "preis_typ": "aktueller Herstellerpreis",
      "uvp": 254.0,
      "url": "https://www.awin1.com/cread.php?awinmid=22915&awinaffid=2988869&clickref=einsteiger-dedica&ued=https%3A%2F%2Fwww.delonghi.com%2Fde-de%2Fp%2Fdedica-siebtragermaschinen-dedica-style-siebtragermaschine-ec685.m%2FEC685.M%2BEX%253A4.html%3Fpid%3D0132106266",
+     "kauf": true
+    },
+    {
+     "shop": "OTTO",
+     "preis": 174.9,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-dedica&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Fde-longhi-espressomaschine-ec-685-m-schnellaufheizung-integrierter-wasserfilter-dampfstab-S0I6C0UE%2F",
      "kauf": true
     }
    ],
@@ -93,22 +114,32 @@ window.SG_PREISE={
    "thumb": "img/thumb/wmf-lumero-studio.png",
    "angebote": [
     {
+     "shop": "Hersteller",
+     "preis": 199.99,
+     "shop_hinweis": "WMF-Shop",
+     "preis_typ": "aktueller Herstellerpreis",
+     "uvp": 299.0,
+     "url": null,
+     "kauf": false
+    },
+    {
      "shop": "roastmarket",
-     "preis": 219.99,
+     "preis": 220.99,
      "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=einsteiger-wmf-lumero&ued=https%3A%2F%2Fwww.roastmarket.de%2Fwmf-lumero-espresso-siebtraegermaschine.html",
      "kauf": true
     },
     {
-     "shop": "Amazon",
-     "preis": 229.99,
-     "url": "https://www.amazon.de/dp/B07N7S4M4Z?tag=siebtraegergu-21",
+     "shop": "OTTO",
+     "preis": 227.04,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-wmf-lumero&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Fwmf-espressomaschine-lumero-kompakt-dezente-led-beleuchtung-15-bar-1350-watt-milchschaumduese-C1932037639%2F",
      "kauf": true
     },
     {
-     "shop": "Hersteller",
-     "preis": 249.0,
-     "url": null,
-     "kauf": false
+     "shop": "Amazon",
+     "preis": null,
+     "hinweis": "derzeit nicht verfügbar",
+     "url": "https://www.amazon.de/dp/B07N7S4M4Z?tag=siebtraegergu-21",
+     "kauf": true
     }
    ],
    "direkt": true
@@ -129,8 +160,14 @@ window.SG_PREISE={
     },
     {
      "shop": "Amazon",
-     "preis": 419.9,
+     "preis": 389.9,
      "url": "https://www.amazon.de/dp/B07ZS664L1?tag=siebtraegergu-21",
+     "kauf": true
+    },
+    {
+     "shop": "OTTO",
+     "preis": 449.9,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-solis-perfetta&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Fsolis-of-switzerland-siebtraegermaschine-barista-perfetta-plus-v2-typ-1170-siebtraeger-54-mm-54-mm-siebhalter-milchaufschaeumer-bohnen-pads-CS015O0CP%2F",
      "kauf": true
     },
     {
@@ -152,13 +189,14 @@ window.SG_PREISE={
    "angebote": [
     {
      "shop": "roastmarket",
-     "preis": 939.99,
+     "preis": 929.99,
      "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=mittelklasse-profitec-go&ued=https%3A%2F%2Fwww.roastmarket.de%2Fprofitec-go.html%3Fs%3D11640",
      "kauf": true
     },
     {
      "shop": "Hersteller",
      "preis": 995.0,
+     "shop_hinweis": "kein Direktverkauf",
      "url": null,
      "kauf": false
     }
@@ -174,20 +212,29 @@ window.SG_PREISE={
    "thumb": "img/thumb/sage-barista-pro-studio.png",
    "angebote": [
     {
-     "shop": "roastmarket",
-     "preis": 589.99,
-     "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=mittelklasse-barista-pro&ued=https%3A%2F%2Fwww.roastmarket.de%2Fsage-the-barista-protm.html",
+     "shop": "OTTO",
+     "preis": 629.0,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-barista-pro&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Fsage-espressomaschine-the-barista-pro-ses878bss4eeu1-gebuerstetes-edelstahl-C885568886%2F",
      "kauf": true
     },
     {
      "shop": "Amazon",
-     "preis": 639.9,
+     "preis": 679.0,
      "url": "https://www.amazon.de/dp/B07PY42BRC?tag=siebtraegergu-21",
      "kauf": true
     },
     {
+     "shop": "roastmarket",
+     "preis": 689.99,
+     "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=mittelklasse-barista-pro&ued=https%3A%2F%2Fwww.roastmarket.de%2Fsage-the-barista-protm.html",
+     "kauf": true
+    },
+    {
      "shop": "Hersteller",
-     "preis": 829.9,
+     "preis": 699.9,
+     "shop_hinweis": "Sage-Shop",
+     "preis_typ": "aktueller Herstellerpreis",
+     "uvp": 829.9,
      "url": null,
      "kauf": false
     }
@@ -216,7 +263,8 @@ window.SG_PREISE={
     },
     {
      "shop": "Amazon",
-     "preis": 671.85,
+     "preis": null,
+     "hinweis": "Tagespreis bei Amazon (zum Stichtag 12.10.2026 nicht belegt)",
      "url": "https://www.amazon.de/dp/B00BS7RFSO?tag=siebtraegergu-21",
      "kauf": true
     }
@@ -232,22 +280,23 @@ window.SG_PREISE={
    "thumb": "img/thumb/quick-mill-pegaso-pid-studio.png",
    "angebote": [
     {
-     "shop": "roastmarket",
-     "preis": 999.99,
-     "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=mittelklasse-pegaso-pid&ued=https%3A%2F%2Fwww.roastmarket.de%2Fquick-mill-pegaso-pid.html",
-     "kauf": true
-    },
-    {
      "shop": "Amazon",
-     "preis": 1016.75,
+     "preis": 1007.95,
      "url": "https://www.amazon.de/dp/B0BSLC7FNP?tag=siebtraegergu-21",
      "kauf": true
     },
     {
      "shop": "Hersteller",
-     "preis": 1150.0,
+     "preis": 1099.0,
      "url": null,
      "kauf": false
+    },
+    {
+     "shop": "roastmarket",
+     "preis": null,
+     "hinweis": "Preis beim Händler prüfen",
+     "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=mittelklasse-pegaso-pid&ued=https%3A%2F%2Fwww.roastmarket.de%2Fquick-mill-pegaso-pid.html",
+     "kauf": true
     }
    ],
    "direkt": true
@@ -262,21 +311,29 @@ window.SG_PREISE={
    "angebote": [
     {
      "shop": "roastmarket",
-     "preis": 469.99,
+     "preis": 479.99,
      "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=mittelklasse-gaggia-classic&ued=https%3A%2F%2Fwww.roastmarket.de%2Fgaggia-classic-evo-pro-e24-inox.html",
      "kauf": true
     },
     {
-     "shop": "Amazon",
-     "preis": 542.08,
-     "url": "https://www.amazon.de/dp/B0CCVY5MSS?tag=siebtraegergu-21",
+     "shop": "OTTO",
+     "preis": 516.35,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-gaggia-classic&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Fgaggia-siebtraegermaschine-classic-e24-inox-ri9481-11-CS06BJ0KC%2F",
      "kauf": true
     },
     {
      "shop": "Hersteller",
-     "preis": 549.99,
+     "preis": 529.0,
+     "shop_hinweis": "kein Direktverkauf",
      "url": null,
      "kauf": false
+    },
+    {
+     "shop": "Amazon",
+     "preis": null,
+     "hinweis": "Tagespreis bei Amazon (zum Stichtag 12.10.2026 nicht belegt)",
+     "url": "https://www.amazon.de/dp/B0CCVY5MSS?tag=siebtraegergu-21",
+     "kauf": true
     }
    ],
    "direkt": false
@@ -291,21 +348,30 @@ window.SG_PREISE={
    "angebote": [
     {
      "shop": "Amazon",
-     "preis": 489.0,
+     "preis": 446.49,
      "url": "https://www.amazon.de/dp/B07B2X1VXZ?tag=siebtraegergu-21",
      "kauf": true
     },
     {
-     "shop": "roastmarket",
+     "shop": "OTTO",
      "preis": 489.99,
-     "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=eb-barista-express&ued=https%3A%2F%2Fwww.roastmarket.de%2Fsage-the-barista-expresstm.html",
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-barista-express&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Fsage-espressomaschine-the-barista-express-ses875bss2eeu1a-C784794016%2F",
      "kauf": true
     },
     {
      "shop": "Hersteller",
-     "preis": 729.9,
+     "preis": 549.9,
+     "shop_hinweis": "Sage-Shop",
+     "preis_typ": "aktueller Herstellerpreis",
+     "uvp": 679.9,
      "url": null,
      "kauf": false
+    },
+    {
+     "shop": "roastmarket",
+     "preis": 609.99,
+     "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=eb-barista-express&ued=https%3A%2F%2Fwww.roastmarket.de%2Fsage-the-barista-expresstm.html",
+     "kauf": true
     }
    ],
    "direkt": true
@@ -320,7 +386,7 @@ window.SG_PREISE={
    "angebote": [
     {
      "shop": "roastmarket",
-     "preis": 2299.0,
+     "preis": 2169.99,
      "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=premium-lelit-bianca&ued=https%3A%2F%2Fwww.roastmarket.de%2Flelit-bianca.html",
      "kauf": true
     },
@@ -331,8 +397,15 @@ window.SG_PREISE={
      "kauf": false
     },
     {
+     "shop": "OTTO",
+     "preis": 2553.0,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-lelit-bianca&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Flelit-espressomaschine-S0PEY0ES%2F",
+     "kauf": true
+    },
+    {
      "shop": "Amazon",
-     "preis": 2795.99,
+     "preis": null,
+     "hinweis": "Tagespreis bei Amazon (zum Stichtag 12.10.2026 nicht belegt)",
      "url": "https://www.amazon.de/dp/B0BB4PT268?tag=siebtraegergu-21",
      "kauf": true
     }
@@ -355,7 +428,7 @@ window.SG_PREISE={
     },
     {
      "shop": "Hersteller",
-     "preis": 5220.0,
+     "preis": 5176.5,
      "url": null,
      "kauf": false
     }
@@ -379,6 +452,7 @@ window.SG_PREISE={
     {
      "shop": "Hersteller",
      "preis": 2485.0,
+     "shop_hinweis": "kein Direktverkauf",
      "url": null,
      "kauf": false
     }
@@ -400,8 +474,15 @@ window.SG_PREISE={
      "kauf": true
     },
     {
+     "shop": "OTTO",
+     "preis": 1678.95,
+     "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-silvia-pro-x&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Francilio-espressomaschine-S0ZF705E%2F",
+     "kauf": true
+    },
+    {
      "shop": "Hersteller",
-     "preis": 2195.0,
+     "preis": 2199.0,
+     "shop_hinweis": "kein Direktverkauf",
      "url": null,
      "kauf": false
     }
@@ -425,6 +506,7 @@ window.SG_PREISE={
     {
      "shop": "Hersteller",
      "preis": 1510.0,
+     "shop_hinweis": "kein Direktverkauf",
      "url": null,
      "kauf": false
     }

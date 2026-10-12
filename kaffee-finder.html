@@ -23,7 +23,10 @@
 <meta property="og:description" content="10 Fragen, ein drehbares Aromarad und Bohnenvorschläge, die zu deiner Tasse passen.">
 <meta property="og:url" content="https://siebtraeger-guide.de/kaffee-finder">
 <meta property="og:image" content="https://siebtraeger-guide.de/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<!-- Consent-Management: Klaro! -->
 <script defer data-config="klaroConfig" src="klaro-config.js"></script>
 <script defer src="klaro.js"></script>
 <script defer src="https://www.dwin2.com/pub.2988869.min.js" type="text/javascript"></script>
@@ -31,6 +34,7 @@
 <script defer src="kaffee-finder.js"></script>
 </head>
 <body>
+
 <header class="site-head" id="top">
   <div class="wrap">
     <a class="brand" href="/">☕ Siebträger<span>-Guide</span></a>
@@ -42,27 +46,65 @@
       <a href="/kaufberatung">Kaufberatung</a>
       <a href="/muehlen">Mühlen</a>
       <a href="/zubehoer">Zubehör</a>
-      <a href="/kaffee-kurs">Kaffee-Kurs</a>
-      <a class="active nav-finder" href="/kaffee-finder" aria-current="page">Bohnen-Finder</a>
+      <a class="nav-kurs" href="/kaffee-kurs">Kaffee-Kurs</a>
+      <a class="active" href="/kaffee-finder" aria-current="page">Bohnen-Finder</a>
     </nav>
   </div>
 </header>
-<div class="wrap breadcrumb"><a href="/">Start</a> › Kaffeebohnen-Finder</div>
+<div class="bean-banner" role="complementary" aria-label="CoffeeSense Onlinekurs">
+  <div class="wrap bean-banner-inner">
+    <div class="bean-banner-copy"><span class="bean-icon" aria-hidden="true">🧬</span><span><b>Kaffee schlägt dir auf den Magen oder raubt dir den Schlaf?</b> Finde heraus, welcher Kaffee zu deinem Körper passt:</span></div>
+    <a class="bean-banner-btn" href="https://siebtraeger-guide.de/kaffee-kurs">Zum CoffeeSense-Kurs</a>
+  </div>
+</div>
+
 <main class="finder-page">
+<div class="wrap breadcrumb finder-breadcrumb"><a href="/">Start</a> › Kaffeebohnen-Finder</div>
   <section class="finder-hero">
     <div class="wrap finder-hero-inner">
       <div class="finder-intro">
-        <span class="finder-kicker"><span class="kicker-dot"></span> DEIN GESCHMACK. DEINE BOHNE.</span>
+        <div class="kicker finder-kicker">Bohnen-Finder · Stand Oktober 2026</div>
         <h1><span class="headline-line">Die Bohne, bei der du gern</span><span class="headline-line"><em>eine Tasse mehr trinkst.</em></span></h1>
-        <p>Ein paar Vorlieben anklicken, das Aromarad bewegen – und wir gleichen dein Profil mit konkreten Bohnen ab. Kein Kaffee-Latein nötig.</p>
-        <div class="finder-proof"><span>◷ <b>2–3 Min.</b></span><span>◉ <b>10 Fragen</b></span><span>✳ <b>3 Empfehlungen</b></span></div>
+        <p class="lede">Zehn kurze Fragen, ein drehbares Aromarad – und am Ende stehen drei konkrete Bohnen auf deinem Siegertreppchen. Kein Kaffee-Latein nötig.</p>
+        <ul class="finder-proof" aria-label="Was dich erwartet">
+          <li><b>2–3 Min.</b><span>Dauer</span></li>
+          <li><b>10</b><span>Fragen</span></li>
+          <li><b>25</b><span>Bohnen in der Auswahl</span></li>
+          <li><b>3</b><span>Empfehlungen</span></li>
+        </ul>
       </div>
-      <div class="hero-cup" aria-hidden="true"><div class="cup-orbit orbit-one"></div><div class="cup-orbit orbit-two"></div><div class="cup-steam steam-one"></div><div class="cup-steam steam-two"></div><div class="cup"><div class="coffee-surface"><span></span><i></i></div></div><div class="cup-handle"></div><div class="cup-saucer"></div><span class="floating-bean bean-a">●</span><span class="floating-bean bean-b">●</span><span class="floating-bean bean-c">●</span></div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="hero-cup-svg" viewBox="0 0 320 300" role="presentation">
+          <defs>
+            <linearGradient id="cup-body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9dcc7"/></linearGradient>
+            <radialGradient id="cup-coffee" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#7a4a2b"/><stop offset="1" stop-color="#2d1b11"/></radialGradient>
+            <linearGradient id="hero-bean" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a5a37"/><stop offset="1" stop-color="#3e2616"/></linearGradient>
+          </defs>
+          <circle cx="160" cy="150" r="138" fill="none" stroke="#B98A2F" stroke-opacity=".28" stroke-dasharray="3 7"/>
+          <circle cx="160" cy="150" r="112" fill="rgba(255,255,255,.06)"/>
+          <g class="steam"><path d="M128 78c-10-14 10-22 0-38" fill="none" stroke="#B98A2F" stroke-width="3" stroke-linecap="round" opacity=".7"/><path d="M158 70c-10-14 10-22 0-38" fill="none" stroke="#B98A2F" stroke-width="3" stroke-linecap="round" opacity=".9"/><path d="M188 78c-10-14 10-22 0-38" fill="none" stroke="#B98A2F" stroke-width="3" stroke-linecap="round" opacity=".7"/></g>
+          <ellipse cx="160" cy="236" rx="96" ry="14" fill="rgba(0,0,0,.45)"/>
+          <path d="M88 120h144l-14 92c-2 12-12 20-24 20h-68c-12 0-22-8-24-20z" fill="url(#cup-body)" stroke="#b79a76" stroke-width="2"/>
+          <path d="M232 132h18c16 0 26 12 24 28-2 18-16 30-34 30h-14" fill="none" stroke="#b79a76" stroke-width="12" stroke-linecap="round"/>
+          <ellipse cx="160" cy="120" rx="72" ry="14" fill="url(#cup-coffee)"/>
+          <path d="M126 118c12-8 30 6 48-2s26 6 36 2" fill="none" stroke="#d9a35e" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+          <g class="hero-beans">
+            <g transform="translate(58 92) rotate(-30)"><ellipse rx="16" ry="22" fill="url(#hero-bean)"/><path d="M0-18c6 7 6 29 0 36" fill="none" stroke="#f2e9dc" stroke-width="3" stroke-linecap="round"/></g>
+            <g transform="translate(268 206) rotate(24)"><ellipse rx="14" ry="19" fill="url(#hero-bean)"/><path d="M0-15c5 6 5 24 0 30" fill="none" stroke="#f2e9dc" stroke-width="3" stroke-linecap="round"/></g>
+            <g transform="translate(78 232) rotate(60)"><ellipse rx="11" ry="15" fill="url(#hero-bean)"/><path d="M0-12c4 5 4 19 0 24" fill="none" stroke="#f2e9dc" stroke-width="2.5" stroke-linecap="round"/></g>
+          </g>
+        </svg>
+      </div>
     </div>
   </section>
+
   <section class="finder-shell wrap" aria-label="Kaffeebohnen-Empfehlung">
-    <div class="finder-topline"><div><span class="step-overline" id="step-overline">DEIN PROFIL · FRAGE 1 VON 10</span><h2 id="step-title">Wie bereitest du deinen Kaffee zu?</h2></div><div class="progress-number" aria-live="polite"><b id="progress-current">01</b><span>/ 10</span></div></div>
-    <div class="progress-track" role="progressbar" aria-label="Fortschritt im Bohnen-Finder" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><span id="progress-fill"></span></div>
+    <div class="finder-topline">
+      <div><span class="step-overline" id="step-overline">DEIN PROFIL · FRAGE 1 VON 10</span><h2 id="step-title">Wie bereitest du deinen Kaffee zu?</h2></div>
+      <div class="progress-number" aria-live="polite"><b id="progress-current">01</b><span>/ 10</span></div>
+    </div>
+    <div class="progress-track" role="progressbar" aria-label="Fortschritt im Bohnen-Finder" aria-valuemin="0" aria-valuemax="10" aria-valuenow="1"><span id="progress-fill"></span></div>
+    <ol class="step-beans" id="step-beans" aria-hidden="true"><li class="current"></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ol>
     <div id="question-content" class="question-content" aria-live="polite"></div>
     <div class="finder-controls" id="finder-controls">
       <button class="finder-back" id="back-btn" type="button" disabled><span aria-hidden="true">←</span> Zurück</button>
@@ -74,12 +116,12 @@
 <footer class="site-foot">
   <div class="wrap">
     <div class="cols">
-      <div><h4>Vergleiche</h4><a href="/vergleich-einsteiger">Einsteiger bis 450 €</a><a href="/vergleich-mittelklasse">Mittelklasse 400–1.000 €</a><a href="/vergleich-premium">Premium ab 1.450 €</a><a href="/preisvergleich">Preisvergleich</a></div>
+      <div><h4>Vergleiche</h4><a href="/vergleich-einsteiger">Einsteiger bis&nbsp;450&nbsp;€</a><a href="/vergleich-mittelklasse">Mittelklasse 400–1.000&nbsp;€</a><a href="/vergleich-premium">Premium ab&nbsp;1.450&nbsp;€</a><a href="/preisvergleich">Preisvergleich</a></div>
       <div><h4>Erfahrungsberichte</h4><a href="/erfahrungsbericht-sage-bambino-plus">Sage Bambino Plus</a><a href="/erfahrungsbericht-profitec-go">Profitec GO</a><a href="/erfahrungsbericht-lelit-bianca">Lelit Bianca V3</a></div>
       <div><h4>Ratgeber</h4><a href="/muehlen">Mühlen</a><a href="/zubehoer">Zubehör &amp; Bohnen</a><a href="/kaufberatung">Kaufberatung</a><a href="/kaffee-kurs">Kaffee-Kurs</a><a href="/kaffee-finder">Bohnen-Finder</a></div>
       <div><h4>Rechtliches</h4><a href="/impressum-datenschutz">Impressum &amp; Datenschutz</a></div>
     </div>
-    <div class="disclosure">* Hinweis: Mit Sternchen (*) markierte Links sind Partnerlinks (Werbung). Kaufst du über einen Partnerlink ein, erhalten wir eine kleine Provision – für dich ändert sich der Preis nicht. Produktnamen sind Marken der jeweiligen Hersteller; dieser Ratgeber ist herstellerunabhängig. Cookies und Partnerlinks helfen diese Website zu finanzieren. <a href="#" class="js-cookie-settings">Cookie-Einstellungen</a></div>
+    <div class="disclosure">* Partnerlinks (Werbung): Kaufst du darüber ein, erhalten wir eine Provision vom Händler – der Preis ändert sich für dich nicht. Die Bohnen-Empfehlungen basieren auf den Produktangaben der Hersteller und Händler, Stand Oktober 2026; wir zeigen keine Live-Preise. Produktnamen sind Marken der jeweiligen Hersteller; dieser Ratgeber ist herstellerunabhängig. Alle Angaben ohne Gewähr. · Cookies und Partnerlinks helfen, diese Website zu finanzieren. · <a href="#" class="js-cookie-settings">Cookie-Einstellungen</a></div>
   </div>
 </footer>
 </body>
