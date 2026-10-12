@@ -17,7 +17,7 @@
 .finder-hero-inner{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(220px,.65fr);align-items:center;gap:28px;padding-top:44px;padding-bottom:88px}
 .finder-kicker{display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;padding:7px 13px;border-radius:999px;border:1px solid rgba(217,174,79,.4);background:rgba(217,174,79,.1);color:var(--d-gold);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
 .finder-kicker:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--d-gold);box-shadow:0 0 0 4px rgba(217,174,79,.18)}
-.finder-intro h1{font-family:var(--d-head);font-weight:700;font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-.01em;margin-bottom:18px;max-width:none;color:var(--d-text)}
+.finder-intro h1{font-family:var(--d-head);font-weight:700;font-size:clamp(28px,4vw,42px);line-height:1.02;letter-spacing:-.01em;margin-bottom:18px;max-width:none;color:var(--d-text)}
 .finder-intro h1 .headline-line{display:block;white-space:nowrap}
 .finder-intro h1 em{font-style:normal;background:linear-gradient(92deg,#F3D27C,var(--d-gold) 45%,#E8C06A);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
 @supports not (background-clip:text){.finder-intro h1 em{background:none;color:var(--d-gold);-webkit-text-fill-color:currentColor}}
@@ -170,8 +170,6 @@
 .price-fit-chip.inside{background:#E6F0EA;color:var(--d-green)}
 .price-fit-chip.outside{background:#F8EFD9;color:#8a5f16}
 .amazon-cta.btn.small.amazon{display:block;width:100%;margin-top:auto;text-align:center;text-decoration:none;border-radius:999px;font-weight:800}
-.result-card:first-child .amazon-cta.btn.small.amazon{background:var(--d-ink);border-color:var(--d-ink);color:#fff}
-.result-card:first-child .amazon-cta.btn.small.amazon:hover{background:#000;border-color:#000}
 
 /* Medaillen */
 .medal-stage{position:relative;isolation:isolate;display:flex;align-items:center;justify-content:center;height:190px;margin:0 -20px 10px;overflow:hidden}
@@ -202,7 +200,7 @@
 /* ---------- Responsive ---------- */
 @media(max-width:860px){
   .finder-hero-inner{grid-template-columns:minmax(0,1fr) minmax(170px,.5fr);gap:16px;padding-top:34px;padding-bottom:76px}
-  .finder-intro h1{font-size:clamp(28px,4.8vw,40px)}
+  .finder-intro h1{font-size:clamp(22px,3.9vw,34px)}
   .hero-cup-svg{width:min(100%,210px)}
   .finder-shell{padding:26px 24px 20px}
   .choice-grid,.method-grid,.choices-inline{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -216,7 +214,7 @@
   .finder-hero-inner{grid-template-columns:1fr;padding-top:26px;padding-bottom:66px}
   .hero-art{display:none}
   .finder-kicker{font-size:10px;padding:6px 11px;margin-bottom:14px}
-  .finder-intro h1{font-size:clamp(22px,7vw,31px)}
+  .finder-intro h1{font-size:clamp(19px,5.8vw,30px)}
   .finder-intro .lede{font-size:15px;margin-bottom:18px}
   .finder-proof{gap:6px}
   .finder-proof li{padding:7px 11px}
@@ -281,7 +279,7 @@
   .result-actions{justify-content:center}
 }
 @media(max-width:340px){
-  .finder-intro h1{font-size:20px}
+  .finder-intro h1{font-size:18px}
   .region-choice-grid .choice-copy b,.budget-choice-grid .choice-copy b{font-size:9px}
 }
 @media(prefers-reduced-motion:reduce){
@@ -292,3 +290,5 @@
 .finder-breadcrumb{color:var(--d-faint);padding-top:16px;position:relative;z-index:1}
 .finder-breadcrumb a{color:var(--d-soft)}
 .finder-page+.site-foot,.finder-page~.site-foot{margin-top:0}
+/* === v12: Headline passt neben die Tasse – Schriftgröße folgt der Spaltenbreite, kein Zeilenumbruch === */
+@supports (container-type:inline-size){.finder-intro{container-type:inline-size}.finder-intro h1{font-size:clamp(18px,6.3cqi,42px)}@media(max-width:600px){.finder-intro h1{font-size:clamp(18px,6.3cqi,30px)}}}

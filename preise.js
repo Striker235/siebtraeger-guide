@@ -114,15 +114,6 @@ window.SG_PREISE={
    "thumb": "img/thumb/wmf-lumero-studio.png",
    "angebote": [
     {
-     "shop": "Hersteller",
-     "preis": 199.99,
-     "shop_hinweis": "WMF-Shop",
-     "preis_typ": "aktueller Herstellerpreis",
-     "uvp": 299.0,
-     "url": null,
-     "kauf": false
-    },
-    {
      "shop": "roastmarket",
      "preis": 220.99,
      "url": "https://www.awin1.com/cread.php?awinmid=16916&awinaffid=2988869&clickref=einsteiger-wmf-lumero&ued=https%3A%2F%2Fwww.roastmarket.de%2Fwmf-lumero-espresso-siebtraegermaschine.html",
@@ -133,6 +124,13 @@ window.SG_PREISE={
      "preis": 227.04,
      "url": "https://www.awin1.com/cread.php?awinmid=14336&awinaffid=2988869&clickref=preisvergleich-wmf-lumero&ued=https%3A%2F%2Fwww.otto.de%2Fp%2Fwmf-espressomaschine-lumero-kompakt-dezente-led-beleuchtung-15-bar-1350-watt-milchschaumduese-C1932037639%2F",
      "kauf": true
+    },
+    {
+     "shop": "Hersteller",
+     "preis": 299.0,
+     "preis_typ": "UVP",
+     "url": null,
+     "kauf": false
     },
     {
      "shop": "Amazon",
