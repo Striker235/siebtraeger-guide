@@ -360,3 +360,6 @@ body.lb-open{overflow:hidden}
 td.buy-td{height:1px}
 .buy-cell{display:flex;flex-direction:column;align-items:flex-start;height:100%}
 .buy-cell .btn-stack{align-self:stretch;margin-top:auto;padding-top:8px}
+
+/* === v13: Literatur-Reiter – Innenabstand der Reiter ab 700 px von 12 auf 10 px. Ziel: zehn Reiter bei voller Seitenbreite in einer Zeile === */
+@media (min-width:700px){.main-nav a{padding:7px 10px}}

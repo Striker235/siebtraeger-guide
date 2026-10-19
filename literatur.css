@@ -1,0 +1,109 @@
+/* Siebträger-Guide · Literatur-Seite „Kaffee zum Hören“ (Rollout 19.10.2026)
+   Nutzt nur die Tokens aus styles.css: keine Webfonts, kein JS-Framework, keine externen Bilder. */
+
+/* --- Hero mit Bücherregal (Regal nur ab 901 px Breite) --- */
+.lit-hero{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:36px;align-items:end}
+.lit-hero-copy{min-width:0}
+.lit-shelf{display:flex;align-items:flex-end;justify-content:center;gap:5px;height:232px;padding:0 12px;border-bottom:12px solid var(--accent-dark);border-radius:0 0 6px 6px}
+.lit-spine{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;justify-content:center;width:34px;padding:10px 0;border-radius:4px 4px 2px 2px;color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:12px;font-weight:700;letter-spacing:.03em;white-space:nowrap;overflow:hidden;box-shadow:inset -4px 0 0 rgba(0,0,0,.16)}
+.lit-spine:nth-child(1){height:198px}
+.lit-spine:nth-child(2){height:176px}
+.lit-spine:nth-child(3){height:216px}
+.lit-spine:nth-child(4){height:164px}
+.lit-spine:nth-child(5){height:192px}
+.lit-spine:nth-child(6){height:182px}
+.lit-cup{font-size:40px;line-height:1;margin-left:6px}
+@media(max-width:900px){.lit-hero{grid-template-columns:1fr}.lit-shelf{display:none}}
+
+/* --- Angebotskarte --- */
+.lit-offer{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:26px;align-items:center;margin:26px 0 4px;padding:24px 28px;background:var(--card);border:2px solid var(--gold);border-radius:16px;box-shadow:0 4px 18px rgba(185,138,47,.13)}
+.lit-offer .seal{width:116px;height:116px;background:var(--accent);box-shadow:0 0 0 5px var(--gold-bg),0 2px 8px rgba(0,0,0,.18)}
+.lit-offer .seal small{font-size:10px;margin-top:3px}
+.lit-seal-big{font-size:16px;line-height:1.15}
+.lit-offer-main{min-width:0}
+.lit-offer-label{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.09em;color:#7A5A1C}
+.lit-offer h2{margin:4px 0 10px;font-size:clamp(21px,2.6vw,27px)}
+.lit-offer .check-list{margin:0}
+.lit-offer .check-list li{font-size:14.5px;margin-bottom:6px}
+.lit-offer-cta{display:flex;flex-direction:column;gap:8px;width:250px}
+.lit-offer-cta .btn{padding:14px 20px;font-size:16px;text-align:center}
+.lit-offer-fine{font-size:12px;line-height:1.45;color:var(--faint);text-align:center}
+@media(max-width:860px){.lit-offer{grid-template-columns:1fr;gap:16px;padding:20px}.lit-offer-cta{width:100%}}
+
+/* --- Sparpotenzial und Schritte --- */
+.lit-save-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0 6px}
+.lit-save{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:12px;padding:18px 20px}
+.lit-save-num{font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:700;line-height:1.1;color:var(--accent-dark);margin-bottom:6px}
+.lit-save p{margin:0;font-size:14.5px;color:var(--soft)}
+.lit-save p b{color:var(--ink)}
+.lit-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:12px 0 0;padding:0;list-style:none;counter-reset:litstep}
+.lit-steps li{position:relative;margin:0;padding:16px 18px 16px 62px;background:var(--card);border:1px solid var(--line);border-radius:12px;font-size:14.5px;color:var(--soft);counter-increment:litstep}
+.lit-steps li::before{content:counter(litstep);position:absolute;left:16px;top:15px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;font-size:15px}
+.lit-steps b{display:block;margin-bottom:2px;color:var(--ink)}
+
+/* --- Kategorien --- */
+.lit-cat-head{display:flex;gap:14px;align-items:flex-start}
+.lit-cat-icon{flex:0 0 48px;height:48px;display:flex;align-items:center;justify-content:center;border-radius:12px;background:var(--card);border:1px solid var(--line);font-size:24px;line-height:1}
+.lit-cat-head h2{margin:0 0 4px}
+.lit-cat-head p{margin:0;color:var(--soft)}
+.lit-grid{margin-top:18px}
+
+/* --- Buchkarten mit typografischem Cover (keine Cover-Bilder von Dritten) --- */
+.lit-card{display:flex;flex-direction:column;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:14px;transition:border-color .15s ease,box-shadow .15s ease,transform .15s ease}
+.lit-card:hover{border-color:var(--gold);box-shadow:0 6px 20px rgba(74,44,23,.10);transform:translateY(-2px)}
+.lit-card.lit-pick{border:2px solid var(--gold)}
+.lit-cover{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:4px;min-height:170px;padding:18px 20px 18px 26px;color:#fff}
+.lit-cover::before{content:"";position:absolute;right:16px;top:14px;width:76px;height:76px;border-radius:50%;border:5px solid rgba(255,255,255,.14)}
+.lit-cover::after{content:"";position:absolute;left:0;top:0;bottom:0;width:9px;background:rgba(0,0,0,.18)}
+.lit-cover-kicker,.lit-cover-title,.lit-cover-sub,.lit-cover-author{position:relative;z-index:1}
+.lit-cover-icon{position:absolute;right:41px;top:39px;z-index:1;font-size:26px;line-height:1}
+.lit-cover-kicker{max-width:75%;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;opacity:.88}
+.lit-cover-title{max-width:88%;font-family:Georgia,"Times New Roman",serif;font-size:21px;font-weight:700;line-height:1.2}
+.lit-cover-sub{max-width:92%;font-family:Georgia,"Times New Roman",serif;font-size:13.5px;font-style:italic;line-height:1.35;opacity:.92}
+.lit-cover-author{margin-top:2px;font-size:13px;opacity:.9}
+.lit-ribbon{position:absolute;left:26px;top:0;z-index:2;padding:5px 10px;border-radius:0 0 8px 8px;background:var(--gold-bg);color:#7A5A1C;box-shadow:0 2px 6px rgba(0,0,0,.18);font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.lit-body{display:flex;flex-direction:column;gap:8px;flex:1;padding:18px 20px 20px}
+.lit-body h3{margin:0;font-size:18.5px}
+.lit-body p{margin:0;font-size:14.5px;color:var(--soft)}
+.lit-body .lit-by{font-size:13px;color:var(--faint)}
+.lit-body .lit-series{font-size:12.5px;font-style:italic;color:var(--faint)}
+.lit-body .lit-avail{padding:8px 10px;border:1px dashed var(--line);border-radius:8px;background:#FCFAF5;font-size:12.5px;color:var(--faint)}
+.lit-body .lit-authors-label{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--faint)}
+.lit-meta{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.lit-meta li{margin:0;padding:3px 9px;border-radius:999px;background:var(--cream);color:var(--accent-dark);font-size:11.5px;font-weight:700;letter-spacing:.02em}
+.lit-meta li.gold{background:var(--gold-bg);color:#7A5A1C}
+.lit-meta li.green{background:var(--green-bg);color:var(--green)}
+.lit-actions{display:flex;flex-direction:column;gap:6px;margin-top:auto;padding-top:6px}
+.lit-actions .btn{text-align:center}
+.lit-card.lit-feature{display:grid;grid-template-columns:250px minmax(0,1fr);margin-top:22px}
+.lit-feature .lit-cover{min-height:230px}
+.lit-feature .lit-actions{align-items:flex-start}
+.lit-authors{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.lit-authors li{margin:0;padding:4px 10px;border:1px solid var(--line);border-radius:8px;background:#FCFAF5;color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:13.5px}
+@media(max-width:700px){.lit-card.lit-feature{grid-template-columns:1fr}.lit-feature .lit-cover{min-height:170px}.lit-feature .lit-actions{align-items:stretch}}
+
+/* --- Farbwelten für Cover und Buchrücken (stehen nach .lit-cover, damit sie greifen) --- */
+.lit-c1{background:linear-gradient(135deg,#2E1B10,#5A3620)}
+.lit-c2{background:linear-gradient(135deg,#5A3620,#8A5A33)}
+.lit-c3{background:linear-gradient(135deg,#5E4314,#94691F)}
+.lit-c4{background:linear-gradient(135deg,#1F4A37,#2E6B4F)}
+.lit-c5{background:linear-gradient(135deg,#5E2A21,#A03D2E)}
+.lit-c6{background:linear-gradient(135deg,#26201B,#4A3B2E)}
+.lit-c-paper{background:linear-gradient(135deg,#F2E9DC,#E6D8C0);color:var(--ink)}
+.lit-c-paper::before{border-color:rgba(122,74,43,.2)}
+.lit-c-paper::after{background:rgba(122,74,43,.14)}
+
+/* --- CTA-Leisten, Abschluss-Box, Kleingedrucktes --- */
+.lit-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px;margin-top:24px;padding:16px 20px;border:1px solid #E7D5A8;border-radius:12px;background:var(--gold-bg)}
+.lit-strip p{flex:1 1 320px;margin:0;font-size:14.5px;color:#5A4116}
+.lit-strip p b{color:#3E2C0E}
+.lit-strip .btn{flex:0 0 auto}
+@media(max-width:640px){.lit-strip .btn{width:100%;text-align:center}}
+.cta-box .btn.lit-ghost-light{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}
+.cta-box .btn.lit-ghost-light:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.lit-fine{margin-top:8px;font-size:12.5px;color:var(--faint)}
+
+/* Sekundärer Textlink in den Buchkarten */
+.lit-actions .lit-link{font-size:13px;font-weight:600;text-align:center;color:var(--accent);text-decoration:none}
+.lit-actions .lit-link:hover{text-decoration:underline}
+.lit-feature .lit-actions .lit-link{text-align:left}

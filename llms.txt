@@ -33,6 +33,7 @@ Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) e
 - [Erfahrungsbericht Lelit Bianca V3](https://siebtraeger-guide.de/erfahrungsbericht-lelit-bianca)
 - [Erfahrungsbericht Sage Barista Express](https://siebtraeger-guide.de/erfahrungsbericht-sage-barista-express)
 - [Kaffee-Kurs CoffeeSense (Werbung)](https://siebtraeger-guide.de/kaffee-kurs)
+- [Kaffee-Hörbücher (Werbung)](https://siebtraeger-guide.de/literatur): 10 Hörbuch-Tipps rund um Kaffee in drei Kategorien plus ein Buchtipp, mit Audible-Probemonat über Amazon
 
 ## Zubehör (Stand Oktober 2026)
 - Neue Seite /zubehoer.html: priorisierte Grundausstattung (Espressowaage, Tamper 58/54/51 mm, Milchkännchen, WDT-Tool, Distributor, Abklopfbehälter, Reinigungstabletten, Puck Screen) sowie drei Bohnen-Empfehlungen für Siebträger (Caffè Borbone Selection Crema Classica, Lavazza Crema e Aroma, Drago Mocambo Gran Bar) – mit Direktlinks zu roastmarket, Amazon bzw. OTTO.
@@ -43,3 +44,7 @@ Alle fünf Detailseiten (Einsteiger, Mittelklasse, Premium, Mühlen, Zubehör) e
 
 ## Kaffeebohnen-Finder
 Interaktiver Bohnen-Recommender mit 10 Fragen zu Zubereitung, Mahlform, Röstung, Stärke, Aroma, Milch, Bohnensorte, Herkunft, Preisrahmen und entkoffeiniertem Kaffee. Ergebnisse verlinken auf konkrete Amazon-Produktseiten mit dem Partner-Tag der Website. URL: https://siebtraeger-guide.de/kaffee-finder
+
+## Literatur (Werbung)
+
+- /literatur – Kaffee-Hörbücher in drei Kategorien: Sachbücher & Geschichte (Manfred Richter, Achim Mantscheff, James Hoffmann; dazu der Buchtipp „Kosmos Kaffee“ des Deutschen Museums), Romane & Familiensagas (Die Kaffee-Saga, Die Kaffeegarten-Trilogie, Der Kaffeedieb, Das Kaffeehaus, Tee? Kaffee? Mord!) sowie Literatur & Anthologien (Kaffee – Eine coffeinhaltige Literaturmischung, Bevor der Kaffee kalt wird). Bewirbt den Audible-Probemonat über das Amazon-Partnerprogramm: 30 Tage kostenlos mit 1 Guthaben, danach 9,95 € pro Monat, jederzeit kündbar (Stand 19.10.2026).
