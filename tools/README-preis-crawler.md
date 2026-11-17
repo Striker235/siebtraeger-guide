@@ -27,6 +27,18 @@ Scheitert Schritt 1 oder 2, wird nichts veröffentlicht. Die Historie wird trotz
 
 ## Einrichten
 
+Live-Betrieb seit 17.11.: Die Domain läuft über den Cloudflare-Worker `siebtraeger-guide-github`, der mit dem Repository `Striker235/siebtraeger-guide` verbunden ist (Workers Builds). Jeder Push auf `main` veröffentlicht automatisch. `wrangler.jsonc` im Hauptordner legt fest, dass nur `src/` veröffentlicht wird. Der Workflow braucht dafür kein Cloudflare-Token: Er committet, Cloudflare veröffentlicht, Schritt 5 prüft live.
+
+Einstellungen für diesen Weg:
+
+| Art | Name | Wert |
+|---|---|---|
+| Variable | `DEPLOY_ZIEL` | `git` (oder Variable löschen) |
+| Variable | `LIVE_URL` | `https://siebtraeger-guide.de` |
+| Secret | `AWIN_FEED_OTTO` | optional, siehe unten |
+
+Die Schritte 1 bis 7 unten beschreiben den anderen Weg (Pages-Direkt-Upload oder Netlify per Token). Für den Git-Worker gelten davon nur Schritt 3 und 6.
+
 1. Leg auf GitHub ein **privates** Repository an.
    In öffentlichen Repositorys schaltet GitHub Zeitpläne nach 60 Tagen ohne Aktivität ab.
 2. Lade den Inhalt von `261117_SiebtraegerGuide_Repo_v14.zip` hoch, mit den Ordnern `.github`, `data`, `src` und `tools`.

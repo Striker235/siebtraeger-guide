@@ -28,6 +28,9 @@ ROOT = Path(__file__).resolve().parent.parent
 PREISE = ROOT / "data" / "preise.json"
 BASIS = os.environ.get("LIVE_URL", "https://siebtraeger-guide.de").rstrip("/")
 SEITEN = ["/", "/preisvergleich", "/black-friday-siebtraeger"]
+# Diese Dateien liegen im Repository, dürfen aber nicht auf der Website erscheinen (nur src/ wird veröffentlicht).
+PRIVAT = ["/tools/preis-crawler.py", "/data/preise.json", "/.github/workflows/preise-veroeffentlichen.yml",
+          "/wrangler.jsonc"]
 AGENT = "SiebtraegerGuide-Livecheck/0.1 (+https://siebtraeger-guide.de)"
 VERSUCHE = 10
 PAUSE = 30
@@ -67,6 +70,10 @@ def durchgang(preise):
                 preis = eintrag.get("bester_preis")
                 if preis is not None and euro(preis) not in text:
                     probleme.append(f"{pfad}: Preis {euro(preis)} für {produkt} fehlt")
+    for pfad in PRIVAT:
+        status, _ = holen(pfad)
+        if status == 200:
+            probleme.append(f"{pfad}: öffentlich abrufbar (HTTP 200), veröffentlicht wird mehr als src/")
     return probleme
 
 

@@ -49,6 +49,7 @@ AMAZON_TAG = "tag=siebtraegergu-21"
 LEER = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 LD_RE = re.compile(r"<script\b[^>]*application/ld\+json[^>]*>(.*?)</script\s*>", re.S | re.I)
 HREF_RE = re.compile(r'\bhref="([^"]*)"')
+REF_RE = re.compile(r'\b(?:href|src)="([^"]*)"')
 
 fehler = []
 
@@ -174,8 +175,30 @@ def datei_pruefen(pfad):
             continue
         if ziel.split("#")[0].split("?")[0].endswith(".html"):
             melden(name, f"interner Link mit .html: {ziel}")
+    for ziel in REF_RE.findall(text):
+        if not ziel or ziel.startswith(("http://", "https://", "//", "mailto:", "tel:", "#", "data:", "javascript:")):
+            continue
+        ziel_pruefen(name, pfad, ziel)
     if 'class="site-foot"' not in text:
         melden(name, "Footer fehlt")
+
+
+def ziel_pruefen(name, pfad, ziel):
+    """Interne Verweise (Seiten, Bilder, Skripte) müssen auf eine Datei unter src/ zeigen.
+
+    Veröffentlicht wird nur src/. Fehlt dort zum Beispiel der Ordner img/, fällt das hier auf.
+    """
+    rein = ziel.split("#")[0].split("?")[0]
+    if not rein:
+        return
+    basis = SRC if rein.startswith("/") else pfad.parent
+    datei = (basis / rein.lstrip("/")).resolve()
+    if rein.endswith("/"):
+        datei = datei / "index.html"
+    elif not datei.suffix:
+        datei = datei.with_suffix(".html")
+    if not datei.is_file() or SRC.resolve() not in datei.parents:
+        melden(name, f"Verweis ohne Datei unter src/: {ziel}")
 
 
 def deal_check_pruefen():
