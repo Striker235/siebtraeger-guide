@@ -132,4 +132,3 @@ jobs:
             --title "Preise veröffentlichen fehlgeschlagen $(TZ=Europe/Berlin date +%F)" \
             --body "Crawler-Code: ${CODE:-kein Ergebnis}. Seitenprüfung: ${PRUEFUNG:-nicht gelaufen}. Ohne bestandene Prüfung wurde nichts veröffentlicht. Log: $LAUF"
           exit 1
-
