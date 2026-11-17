@@ -5,9 +5,11 @@
 # Lauf öffnet ein Issue.
 #
 # Einstellungen unter Settings › Secrets and variables › Actions:
-#   Variable DEPLOY_ZIEL: cloudflare oder netlify
+#   Variable DEPLOY_ZIEL: git (Standard, auch wenn leer), cloudflare oder netlify
+#     git: Cloudflare Workers Builds ist mit dem Repository verbunden und veröffentlicht
+#     nach jedem Push auf main den Ordner src/ (siehe wrangler.jsonc). Kein Token nötig.
 #   Variable LIVE_URL: z. B. https://siebtraeger-guide.de
-#   Cloudflare Pages: Secret CLOUDFLARE_API_TOKEN, Secret CLOUDFLARE_ACCOUNT_ID, Variable CF_PAGES_PROJEKT
+#   Nur bei cloudflare (Pages-Direkt-Upload): Secret CLOUDFLARE_API_TOKEN, Secret CLOUDFLARE_ACCOUNT_ID, Variable CF_PAGES_PROJEKT
 #   Netlify: Secret NETLIFY_AUTH_TOKEN, Variable NETLIFY_SITE_ID
 #   optional: Secret AWIN_FEED_OTTO
 name: Preise veröffentlichen
@@ -66,7 +68,7 @@ jobs:
             echo "ok=true" >> "$GITHUB_OUTPUT"
           else
             echo "Crawler-Code $CODE, Prüfung $PRUEFUNG: kein Veröffentlichen, nur die Historie wird committet"
-            git checkout -- data/preise.json src/
+            git checkout -- data/preise.json src/ || git checkout -- data/preise.json || true
             echo "ok=false" >> "$GITHUB_OUTPUT"
           fi
 
@@ -97,6 +99,9 @@ jobs:
           NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
         run: |
           case "$DEPLOY_ZIEL" in
+            ""|git)
+              echo "Veröffentlichen übernimmt Cloudflare Workers Builds nach dem Push aus Schritt 3"
+              ;;
             cloudflare)
               npx --yes wrangler@4 pages deploy src --project-name "$CF_PAGES_PROJEKT" --branch main --commit-dirty=true
               ;;
@@ -104,7 +109,7 @@ jobs:
               npx --yes netlify-cli deploy --dir src --prod --site "$NETLIFY_SITE_ID" --no-build
               ;;
             *)
-              echo "Variable DEPLOY_ZIEL fehlt (cloudflare oder netlify)"
+              echo "Variable DEPLOY_ZIEL unbekannt: $DEPLOY_ZIEL (git, cloudflare oder netlify)"
               exit 1
               ;;
           esac
