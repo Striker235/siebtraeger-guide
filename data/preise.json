@@ -1,0 +1,523 @@
+{
+ "geprueft": "2026-11-17T11:43:01+01:00",
+ "hinweis": "Stand der letzten Prüfung. Preise aus den JSON-LD-Angeboten der Shopseiten oder aus einem Produktfeed. tief_30: niedrigster Tagespreis der 30 Tage vor dem Prüftag. Amazon und OTTO nur als Link.",
+ "produkte": {
+  "einsteiger-bambino-plus": {
+   "name": "Sage Bambino Plus",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 380.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 380.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 469.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 439.99,
+    "shop": "roastmarket"
+   }
+  },
+  "einsteiger-gastroback-piccolo-pro-m": {
+   "name": "Gastroback Design Espresso Piccolo Pro M",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 217.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 217.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 232.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 232.99,
+    "shop": "roastmarket"
+   }
+  },
+  "einsteiger-dedica": {
+   "name": "De’Longhi Dedica Style EC685.M",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 149.99,
+     "shop": "De’Longhi"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 149.99,
+   "bester_shop": "De’Longhi",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 154.0,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 149.0,
+    "shop": "De’Longhi"
+   }
+  },
+  "einsteiger-wmf-lumero": {
+   "name": "WMF Lumero Espresso",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 174.99,
+     "ab": true,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 174.99,
+   "bester_shop": "roastmarket",
+   "ab": true,
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 220.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 220.99,
+    "shop": "roastmarket"
+   }
+  },
+  "einsteiger-solis-perfetta": {
+   "name": "Solis Barista Perfetta Plus",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 378.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 378.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 369.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 369.99,
+    "shop": "roastmarket"
+   }
+  },
+  "mittelklasse-profitec-go": {
+   "name": "Profitec GO",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 839.99,
+     "shop": "roastmarket"
+    }
+   ],
+   "bester_preis": 839.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 899.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 929.99,
+    "shop": "roastmarket"
+   }
+  },
+  "mittelklasse-barista-pro": {
+   "name": "Sage Barista Pro",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 564.99,
+     "ab": true,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 564.99,
+   "bester_shop": "roastmarket",
+   "ab": true,
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 679.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 689.99,
+    "shop": "roastmarket"
+   }
+  },
+  "mittelklasse-lelit-anna": {
+   "name": "Lelit Anna PL41TEM",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 547.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    }
+   ],
+   "bester_preis": 547.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 569.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 569.99,
+    "shop": "roastmarket"
+   }
+  },
+  "mittelklasse-pegaso-pid": {
+   "name": "Quick Mill Pegaso PID",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 1049.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    }
+   ],
+   "bester_preis": 1049.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 1049.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz"
+  },
+  "mittelklasse-gaggia-classic": {
+   "name": "Gaggia Classic Evo Pro",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 430.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 430.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 499.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 479.99,
+    "shop": "roastmarket"
+   }
+  },
+  "eb-barista-express": {
+   "name": "Sage Barista Express",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 484.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 484.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 599.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 609.99,
+    "shop": "roastmarket"
+   }
+  },
+  "premium-lelit-bianca": {
+   "name": "Lelit Bianca V3",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 2168.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 2168.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 2309.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 2169.99,
+    "shop": "roastmarket"
+   }
+  },
+  "premium-linea-mini-r": {
+   "name": "La Marzocco Linea Mini R",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 4938.5,
+     "shop": "roastmarket"
+    }
+   ],
+   "bester_preis": 4938.5,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 5176.5,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 5176.5,
+    "shop": "roastmarket"
+   }
+  },
+  "premium-technika-v": {
+   "name": "ECM Technika V Profi PID",
+   "angebote": [
+    {
+     "status": "fehler",
+     "hinweis": "HTTP 404",
+     "shop": "roastmarket"
+    }
+   ],
+   "tage_mit_daten": 0,
+   "urteil": "kein-preis"
+  },
+  "premium-silvia-pro-x": {
+   "name": "Rancilio Silvia Pro X",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 1499.0,
+     "ab": true,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 1499.0,
+   "bester_shop": "roastmarket",
+   "ab": true,
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 1699.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 1499.0,
+    "shop": "roastmarket"
+   }
+  },
+  "premium-appartamento": {
+   "name": "Rocket Appartamento TCA",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 1448.0,
+     "ab": true,
+     "shop": "roastmarket"
+    }
+   ],
+   "bester_preis": 1448.0,
+   "bester_shop": "roastmarket",
+   "ab": true,
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 1448.0,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-12",
+    "preis": 1448.0,
+    "shop": "roastmarket"
+   }
+  },
+  "muehlen-mignon-specialita": {
+   "name": "Eureka Mignon Specialità",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 332.99,
+     "ab": true,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 332.99,
+   "bester_shop": "roastmarket",
+   "ab": true,
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 372.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-21",
+    "preis": 372.99,
+    "shop": "roastmarket"
+   }
+  },
+  "muehlen-smart-grinder-pro": {
+   "name": "Sage Smart Grinder Pro",
+   "angebote": [
+    {
+     "status": "ok",
+     "preis": 207.99,
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "bester_preis": 207.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 210.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-21",
+    "preis": 210.99,
+    "shop": "roastmarket"
+   }
+  },
+  "muehlen-graef-cm-800": {
+   "name": "Graef CM 800",
+   "angebote": [
+    {
+     "status": "nicht lieferbar",
+     "shop": "Graef"
+    },
+    {
+     "status": "nicht lieferbar",
+     "shop": "roastmarket"
+    },
+    {
+     "status": "nur Link",
+     "shop": "Amazon"
+    },
+    {
+     "status": "nur Link",
+     "shop": "OTTO"
+    }
+   ],
+   "tage_mit_daten": 1,
+   "daten_seit": "2026-10-22",
+   "tief_30": 189.99,
+   "tief_30_datum": "2026-10-22",
+   "urteil": "kein-preis"
+  }
+ }
+}

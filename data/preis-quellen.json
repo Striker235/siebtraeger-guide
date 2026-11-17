@@ -1,0 +1,673 @@
+{
+ "hinweis": "Quellen für tools/preis-crawler.py. url: Produktseite, die der Crawler abruft (Preis und Lieferbarkeit aus JSON-LD). ziel: Linkziel ohne Abruf. awin: Programm-ID, daraus entsteht ein Awin-Partnerlink mit clickref bf-<id>. link: fester Link (Amazon nur als Link, kein Preis). partner false: Link ohne Partnerprogramm. feed_env und feed_wert: Produktfeed, feed_wert ist die EAN und fehlt noch. referenz: Preis der letzten Prüfung vor dem Start des Deal-Checks. Shop-Namen nicht ändern, sie sind Teil des Schlüssels in data/preis-historie.json. min_tage_urteil (25) steht auch im Seitentext.",
+ "user_agent": "SiebtraegerGuide-Preischeck/0.1 (+https://siebtraeger-guide.de)",
+ "dateien": {
+  "preise": "data/preise.json",
+  "historie": "data/preis-historie.json",
+  "seite": "src/black-friday-siebtraeger.html"
+ },
+ "einstellungen": {
+  "abstand_sekunden": 10,
+  "fenster_tage": 30,
+  "min_tage_urteil": 25,
+  "historie_tage": 400,
+  "plausibel": [
+   0.5,
+   1.6
+  ],
+  "awin_publisher": 2988869,
+  "clickref_prefix": "bf-"
+ },
+ "kategorien": [
+  "Einsteiger",
+  "Mittelklasse",
+  "Premium",
+  "Mühlen"
+ ],
+ "produkte": [
+  {
+   "id": "einsteiger-bambino-plus",
+   "kat": "Einsteiger",
+   "name": "Sage Bambino Plus",
+   "label": "Unsere Empfehlung",
+   "seite": "/erfahrungsbericht-sage-bambino-plus",
+   "name_muss": [
+    "Bambino",
+    "Plus"
+   ],
+   "preis_etwa": 440,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/sage-the-bambino-plus-edelstahl.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 439.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B07KYCPZK6?tag=siebtraegergu-21&th=1"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/suche/sage%20bambino%20plus/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "einsteiger-gastroback-piccolo-pro-m",
+   "kat": "Einsteiger",
+   "name": "Gastroback Design Espresso Piccolo Pro M",
+   "label": "Milch-Komfort",
+   "seite": "/vergleich-einsteiger",
+   "name_muss": [
+    "Piccolo"
+   ],
+   "preis_etwa": 233,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/gastroback-design-espresso-piccolo-pro-m.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 232.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B0CJVBR53V?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/suche/gastroback%20piccolo%20pro%20m/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "einsteiger-dedica",
+   "kat": "Einsteiger",
+   "name": "De’Longhi Dedica Style EC685.M",
+   "label": "Preis-Leistungs-Tipp",
+   "seite": "/vergleich-einsteiger",
+   "name_muss": [
+    "Dedica",
+    "EC685"
+   ],
+   "preis_etwa": 149,
+   "quellen": [
+    {
+     "shop": "De’Longhi",
+     "url": "https://www.delonghi.com/de-de/p/dedica-siebtragermaschinen-dedica-style-siebtragermaschine-ec685.m/EC685.M+EX%3A4.html?pid=0132106266",
+     "awin": 22915,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 149.0
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B06WGTZ874?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/de-longhi-espressomaschine-ec-685-m-schnellaufheizung-integrierter-wasserfilter-dampfstab-S0I6C0UE/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "einsteiger-wmf-lumero",
+   "kat": "Einsteiger",
+   "name": "WMF Lumero Espresso",
+   "label": "Geheimtipp",
+   "seite": "/vergleich-einsteiger",
+   "name_muss": [
+    "Lumero"
+   ],
+   "preis_etwa": 221,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/wmf-lumero-espresso-siebtraegermaschine.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 220.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B07N7S4M4Z?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/wmf-espressomaschine-lumero-kompakt-dezente-led-beleuchtung-15-bar-1350-watt-milchschaumduese-C1932037639/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "einsteiger-solis-perfetta",
+   "kat": "Einsteiger",
+   "name": "Solis Barista Perfetta Plus",
+   "label": null,
+   "seite": "/vergleich-einsteiger",
+   "name_muss": [
+    "Perfetta"
+   ],
+   "preis_etwa": 370,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/solis-barista-perfetta-plus-siebtraegermaschine.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 369.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B07ZS664L1?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/solis-of-switzerland-siebtraegermaschine-barista-perfetta-plus-v2-typ-1170-siebtraeger-54-mm-54-mm-siebhalter-milchaufschaeumer-bohnen-pads-CS015O0CP/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "mittelklasse-profitec-go",
+   "kat": "Mittelklasse",
+   "name": "Profitec GO",
+   "label": "Unsere Empfehlung",
+   "seite": "/erfahrungsbericht-profitec-go",
+   "name_muss": [
+    "Profitec",
+    "GO"
+   ],
+   "preis_etwa": 930,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/profitec-go.html?s=11640",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 929.99
+     }
+    }
+   ]
+  },
+  {
+   "id": "mittelklasse-barista-pro",
+   "kat": "Mittelklasse",
+   "name": "Sage Barista Pro",
+   "label": "Komfort-Tipp",
+   "seite": "/vergleich-mittelklasse",
+   "name_muss": [
+    "Barista Pro"
+   ],
+   "preis_etwa": 690,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/sage-the-barista-protm.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 689.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B07PY42BRC?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/sage-espressomaschine-the-barista-pro-ses878bss4eeu1-gebuerstetes-edelstahl-C885568886/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "mittelklasse-lelit-anna",
+   "kat": "Mittelklasse",
+   "name": "Lelit Anna PL41TEM",
+   "label": "Preis-Leistungs-Tipp",
+   "seite": "/vergleich-mittelklasse",
+   "name_muss": [
+    "Anna"
+   ],
+   "preis_etwa": 570,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/lelit-anna-pl41tem-edelstahl.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 569.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B00BS7RFSO?tag=siebtraegergu-21"
+    }
+   ]
+  },
+  {
+   "id": "mittelklasse-pegaso-pid",
+   "kat": "Mittelklasse",
+   "name": "Quick Mill Pegaso PID",
+   "label": "Flow-Tüftler",
+   "seite": "/vergleich-mittelklasse",
+   "name_muss": [
+    "Pegaso"
+   ],
+   "preis_etwa": 1099,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/quick-mill-pegaso-pid.html",
+     "awin": 16916
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B0BSLC7FNP?tag=siebtraegergu-21"
+    }
+   ]
+  },
+  {
+   "id": "mittelklasse-gaggia-classic",
+   "kat": "Mittelklasse",
+   "name": "Gaggia Classic Evo Pro",
+   "label": null,
+   "seite": "/vergleich-mittelklasse",
+   "name_muss": [
+    "Gaggia",
+    "Classic"
+   ],
+   "preis_etwa": 480,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/gaggia-classic-evo-pro-e24-inox.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 479.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B0CCVY5MSS?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/gaggia-siebtraegermaschine-classic-e24-inox-ri9481-11-CS06BJ0KC/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "eb-barista-express",
+   "kat": "Mittelklasse",
+   "name": "Sage Barista Express",
+   "label": null,
+   "seite": "/erfahrungsbericht-sage-barista-express",
+   "name_muss": [
+    "Barista Express"
+   ],
+   "name_nicht": [
+    "Impress"
+   ],
+   "preis_etwa": 610,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/sage-the-barista-expresstm.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 609.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B07B2X1VXZ?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/sage-espressomaschine-the-barista-express-ses875bss2eeu1a-C784794016/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "premium-lelit-bianca",
+   "kat": "Premium",
+   "name": "Lelit Bianca V3",
+   "label": "Unsere Empfehlung",
+   "seite": "/erfahrungsbericht-lelit-bianca",
+   "name_muss": [
+    "Bianca"
+   ],
+   "preis_etwa": 2170,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/lelit-bianca.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 2169.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B0BB4PT268?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/lelit-espressomaschine-S0PEY0ES/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "premium-linea-mini-r",
+   "kat": "Premium",
+   "name": "La Marzocco Linea Mini R",
+   "label": "Café-Ikone",
+   "seite": "/vergleich-premium",
+   "name_muss": [
+    "Linea Mini"
+   ],
+   "preis_etwa": 5177,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/la-marzocco-linea-mini-r.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 5176.5
+     }
+    }
+   ]
+  },
+  {
+   "id": "premium-technika-v",
+   "kat": "Premium",
+   "name": "ECM Technika V Profi PID",
+   "label": "Verarbeitung",
+   "seite": "/vergleich-premium",
+   "name_muss": [
+    "Technika"
+   ],
+   "preis_etwa": 2330,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/ecm-technika-v-profi-pid-espressomaschine.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 2329.99
+     }
+    }
+   ]
+  },
+  {
+   "id": "premium-silvia-pro-x",
+   "kat": "Premium",
+   "name": "Rancilio Silvia Pro X",
+   "label": "Kompakter Dualboiler",
+   "seite": "/vergleich-premium",
+   "name_muss": [
+    "Silvia"
+   ],
+   "preis_etwa": 1499,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/rancilio-silvia-pro-x.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 1499.0
+     }
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/rancilio-espressomaschine-S0ZF705E/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "premium-appartamento",
+   "kat": "Premium",
+   "name": "Rocket Appartamento TCA",
+   "label": "Design",
+   "seite": "/vergleich-premium",
+   "name_muss": [
+    "Appartamento"
+   ],
+   "preis_etwa": 1448,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/rocket-appartamento-tca.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-12",
+      "preis": 1448.0
+     }
+    }
+   ]
+  },
+  {
+   "id": "muehlen-mignon-specialita",
+   "kat": "Mühlen",
+   "name": "Eureka Mignon Specialità",
+   "label": "Unsere Empfehlung",
+   "seite": "/muehlen",
+   "name_muss": [
+    "Mignon",
+    "Specialità"
+   ],
+   "preis_etwa": 373,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/eureka-mignon-specialita.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-21",
+      "preis": 372.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B07PYGW97W?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/eureka-kaffeemuehle-mignon-specialita-55-220-240v-50-60hz-16cr-chrom-CS07G00P3/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "muehlen-smart-grinder-pro",
+   "kat": "Mühlen",
+   "name": "Sage Smart Grinder Pro",
+   "label": "Preis-Leistung",
+   "seite": "/muehlen",
+   "name_muss": [
+    "Smart Grinder"
+   ],
+   "preis_etwa": 211,
+   "quellen": [
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/sage-the-smart-grindertm-pro-muehle-edelstahl.html",
+     "awin": 16916,
+     "referenz": {
+      "datum": "2026-10-21",
+      "preis": 210.99
+     }
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B07BB68PTW?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/sage-kaffeemuehle-the-smart-grinder-pro-scg820bss4eeu1-165-w-kegelmahlwerk-450-g-bohnenbehaelter-edelstahl-kegelmahlwerk-C784806947/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  },
+  {
+   "id": "muehlen-graef-cm-800",
+   "kat": "Mühlen",
+   "name": "Graef CM 800",
+   "label": "Budget-Tipp",
+   "seite": "/muehlen",
+   "name_muss": [
+    "CM800"
+   ],
+   "preis_etwa": 190,
+   "quellen": [
+    {
+     "shop": "Graef",
+     "knopf": "Graef-Shop",
+     "url": "https://www.graef.de/de/p/kaffeemuehle-cm800/",
+     "link": "https://www.graef.de/de/p/kaffeemuehle-cm800/",
+     "partner": false,
+     "referenz": {
+      "datum": "2026-10-21",
+      "preis": 189.99
+     }
+    },
+    {
+     "shop": "roastmarket",
+     "url": "https://www.roastmarket.de/graef-kaffeemuehle-cm-800.html",
+     "awin": 16916
+    },
+    {
+     "shop": "Amazon",
+     "link": "https://www.amazon.de/dp/B00CS2DAEG?tag=siebtraegergu-21"
+    },
+    {
+     "shop": "OTTO",
+     "ziel": "https://www.otto.de/p/graef-kaffeemuehle-cm-800-elektrisch-aus-edelstahl-espressomuehle-kegelmahlwerk-silber-C905922857/",
+     "awin": 14336,
+     "feed_env": "AWIN_FEED_OTTO",
+     "feed_wert": ""
+    }
+   ]
+  }
+ ],
+ "preisseiten": [
+  {
+   "datei": "src/muehlen.html",
+   "ld": {
+    "Eureka Mignon Specialità": "muehlen-mignon-specialita",
+    "Sage the Smart Grinder Pro": "muehlen-smart-grinder-pro",
+    "Graef CM 800": "muehlen-graef-cm-800"
+   }
+  },
+  {
+   "datei": "src/index.html",
+   "ld": {}
+  },
+  {
+   "datei": "src/kaufberatung.html",
+   "ld": {}
+  },
+  {
+   "datei": "src/erfahrungsbericht-lelit-bianca.html",
+   "ld": {}
+  },
+  {
+   "datei": "src/erfahrungsbericht-profitec-go.html",
+   "ld": {}
+  },
+  {
+   "datei": "src/erfahrungsbericht-sage-bambino-plus.html",
+   "ld": {}
+  },
+  {
+   "datei": "src/erfahrungsbericht-sage-barista-express.html",
+   "ld": {}
+  },
+  {
+   "datei": "src/vergleich-einsteiger.html",
+   "ld": {
+    "Sage Bambino Plus": "einsteiger-bambino-plus",
+    "Gastroback Design Espresso Piccolo Pro M": "einsteiger-gastroback-piccolo-pro-m",
+    "De'Longhi Dedica Style EC685": "einsteiger-dedica",
+    "WMF Lumero Espresso": "einsteiger-wmf-lumero",
+    "Solis Barista Perfetta Plus": "einsteiger-solis-perfetta"
+   }
+  },
+  {
+   "datei": "src/vergleich-mittelklasse.html",
+   "ld": {
+    "Profitec GO": "mittelklasse-profitec-go",
+    "Sage Barista Pro SES878": "mittelklasse-barista-pro",
+    "Lelit Anna PL41TEM": "mittelklasse-lelit-anna",
+    "Quick Mill Pegaso PID": "mittelklasse-pegaso-pid",
+    "Gaggia Classic Evo Pro E24": "mittelklasse-gaggia-classic"
+   }
+  },
+  {
+   "datei": "src/vergleich-premium.html",
+   "ld": {
+    "Lelit Bianca V3 PL162T": "premium-lelit-bianca",
+    "La Marzocco Linea Mini R Schwarz": "premium-linea-mini-r",
+    "ECM Technika V Profi PID": "premium-technika-v",
+    "Rancilio Silvia Pro X": "premium-silvia-pro-x",
+    "Rocket Appartamento TCA": "premium-appartamento"
+   }
+  },
+  {
+   "datei": "src/preisvergleich.html",
+   "ld": {}
+  }
+ ]
+}
