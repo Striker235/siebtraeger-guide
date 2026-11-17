@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kaffeebohnen-Finder: Finde deine perfekte Bohne | Siebträger-Guide</title>
+<title>Kaffeebohnen-Finder: Welche von 25 Bohnen passt zu dir?</title>
 <meta name="description" content="Finde in 10 kurzen Fragen Kaffeebohnen passend zu Zubereitung, Röstung und Geschmack. Mit drehbarem Aromarad und geprüften Amazon-Produktlinks.">
+<meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="https://siebtraeger-guide.de/kaffee-finder">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="kaffee-finder.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Kaffeebohnen-Finder","url":"https://siebtraeger-guide.de/kaffee-finder","description":"Interaktiver Kaffeebohnen-Finder mit Zubereitungs-, Geschmacks- und Röstprofil."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Kaffeebohnen-Finder","url":"https://siebtraeger-guide.de/kaffee-finder","description":"Interaktiver Kaffeebohnen-Finder mit Zubereitungs-, Geschmacks- und Röstprofil.","inLanguage":"de","dateModified":"2026-10-26"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Start","item":"https://siebtraeger-guide.de/"},{"@type":"ListItem","position":2,"name":"Kaffeebohnen-Finder","item":"https://siebtraeger-guide.de/kaffee-finder"}]}</script>
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -19,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Siebträger-Guide">
 <meta property="og:locale" content="de_DE">
-<meta property="og:title" content="Kaffeebohnen-Finder: Finde deine perfekte Bohne">
-<meta property="og:description" content="10 Fragen, ein drehbares Aromarad und Bohnenvorschläge, die zu deiner Tasse passen.">
+<meta property="og:title" content="Kaffeebohnen-Finder: Welche von 25 Bohnen passt zu dir?">
+<meta property="og:description" content="Finde in 10 kurzen Fragen Kaffeebohnen passend zu Zubereitung, Röstung und Geschmack. Mit drehbarem Aromarad und geprüften Amazon-Produktlinks.">
 <meta property="og:url" content="https://siebtraeger-guide.de/kaffee-finder">
 <meta property="og:image" content="https://siebtraeger-guide.de/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -37,24 +38,64 @@
 
 <header class="site-head" id="top">
   <div class="wrap">
-    <a class="brand" href="/">☕ Siebträger<span>-Guide</span></a>
+    <a class="brand" href="/">Siebträger<span>-Guide</span></a>
     <nav class="main-nav" aria-label="Hauptnavigation">
       <a href="/vergleich-einsteiger">Einsteiger</a>
       <a href="/vergleich-mittelklasse">Mittelklasse</a>
       <a href="/vergleich-premium">Premium</a>
       <a href="/preisvergleich">Preisvergleich</a>
-      <a href="/kaufberatung">Kaufberatung</a>
+      <div class="nav-dd">
+        <a href="/kaufberatung">Kaufberatung &amp; Erfahrungsberichte</a><button type="button" class="nav-dd-btn" aria-expanded="false" aria-controls="nav-kb" aria-label="Untermenü Erfahrungsberichte und Vergleiche"></button>
+        <div class="nav-sub" id="nav-kb">
+          <span class="nav-h">Erfahrungsberichte</span>
+          <a href="/erfahrungsbericht-sage-bambino-plus">Sage Bambino Plus</a>
+          <a href="/erfahrungsbericht-sage-barista-express">Sage Barista Express</a>
+          <a href="/erfahrungsbericht-profitec-go">Profitec GO</a>
+          <a href="/erfahrungsbericht-lelit-bianca">Lelit Bianca V3</a>
+          <span class="nav-h">Vergleiche</span>
+          <a href="/vergleich-einsteiger">Einsteiger bis 450&nbsp;€</a>
+          <a href="/vergleich-mittelklasse">Mittelklasse 400 bis 1.000&nbsp;€</a>
+          <a href="/vergleich-premium">Premium ab 1.450&nbsp;€</a>
+          <a href="/sage-bambino-plus-vs-barista-express">Bambino Plus vs. Barista Express</a>
+          <a href="/profitec-go-vs-lelit-anna">Profitec GO vs. Lelit Anna</a>
+          <a href="/siebtraeger-oder-vollautomat">Siebträger oder Vollautomat?</a>
+        </div>
+      </div>
       <a href="/muehlen">Mühlen</a>
       <a href="/zubehoer">Zubehör</a>
       <a class="nav-kurs" href="/kaffee-kurs">Kaffee-Kurs</a>
-      <a class="active" href="/kaffee-finder" aria-current="page">Bohnen-Finder</a>
-      <a href="/literatur">Literatur</a>
+      <a href="/kaffee-finder" aria-current="page">Bohnen-Finder</a>
+      <div class="nav-dd mehr">
+        <button type="button" class="nav-dd-btn" aria-expanded="false" aria-controls="nav-mehr">Sonstiges</button>
+        <div class="nav-sub zwei" id="nav-mehr">
+          <span class="nav-h">Pflege</span>
+          <a href="/siebtraeger-entkalken">Entkalken &amp; Wasserhärte</a>
+          <a href="/pflege-sage-bambino-plus">Pflege Sage Bambino Plus</a>
+          <a href="/pflege-sage-barista-express">Pflege Sage Barista Express</a>
+          <a href="/pflege-profitec-go">Pflege Profitec GO</a>
+          <a href="/pflege-lelit-bianca">Pflege Lelit Bianca V3</a>
+          <span class="nav-h">Zubereitung</span>
+          <a href="/espresso-diagnose">Espresso-Diagnose</a>
+          <a href="/latte-art">Latte Art</a>
+          <a href="/geschmacksrad">Geschmacksrad</a>
+          <a href="/tamper-groesse">Tamper- &amp; Siebgrößen</a>
+          <span class="nav-h">Kaufen &amp; Kosten</span>
+          <a href="/black-friday-siebtraeger">Black-Friday-Check</a>
+          <a href="/siebtraeger-gebraucht-kaufen">Gebraucht kaufen</a>
+          <a href="/stromverbrauch-siebtraeger">Stromverbrauch &amp; Kosten</a>
+          <a href="/geschenke-siebtraeger">Geschenke</a>
+          <span class="nav-h">Lesen &amp; Über uns</span>
+          <a href="/literatur">Literatur</a>
+          <a href="/so-arbeiten-wir">So arbeiten wir</a>
+          <a href="/impressum-datenschutz">Impressum &amp; Datenschutz</a>
+        </div>
+      </div>
     </nav>
   </div>
 </header>
 <div class="bean-banner" role="complementary" aria-label="CoffeeSense Onlinekurs">
   <div class="wrap bean-banner-inner">
-    <div class="bean-banner-copy"><span class="bean-icon" aria-hidden="true">🧬</span><span><b>Kaffee schlägt dir auf den Magen oder raubt dir den Schlaf?</b> Finde heraus, welcher Kaffee zu deinem Körper passt:</span></div>
+    <div class="bean-banner-copy"><span><b>Kaffee schlägt dir auf den Magen oder raubt dir den Schlaf?</b> Finde heraus, welcher Kaffee zu deinem Körper passt:</span></div>
     <a class="bean-banner-btn" href="https://siebtraeger-guide.de/kaffee-kurs">Zum CoffeeSense-Kurs</a>
   </div>
 </div>
@@ -64,11 +105,11 @@
   <section class="finder-hero">
     <div class="wrap finder-hero-inner">
       <div class="finder-intro">
-        <div class="kicker finder-kicker">Bohnen-Finder · Stand Oktober 2026</div>
         <h1><span class="headline-line">Die Bohne, bei der du gern</span><span class="headline-line"><em>eine Tasse mehr trinkst.</em></span></h1>
-        <p class="lede">Zehn kurze Fragen, ein drehbares Aromarad – und am Ende stehen drei konkrete Bohnen auf deinem Siegertreppchen. Kein Kaffee-Latein nötig.</p>
+        <p class="finder-kicker">Bohnen-Finder, Stand Oktober 2026</p>
+        <p class="lede">Zehn kurze Fragen, ein drehbares Aromarad, und am Ende stehen drei konkrete Bohnen auf deinem Siegertreppchen. Kein Kaffee-Latein nötig.</p>
         <ul class="finder-proof" aria-label="Was dich erwartet">
-          <li><b>2–3 Min.</b><span>Dauer</span></li>
+          <li><b>2 bis 3 Min.</b><span>Dauer</span></li>
           <li><b>10</b><span>Fragen</span></li>
           <li><b>25</b><span>Bohnen in der Auswahl</span></li>
           <li><b>3</b><span>Empfehlungen</span></li>
@@ -101,28 +142,29 @@
 
   <section class="finder-shell wrap" aria-label="Kaffeebohnen-Empfehlung">
     <div class="finder-topline">
-      <div><span class="step-overline" id="step-overline">DEIN PROFIL · FRAGE 1 VON 10</span><h2 id="step-title">Wie bereitest du deinen Kaffee zu?</h2></div>
+      <div><span class="step-overline" id="step-overline">Dein Profil: Frage 1 von 10</span><h2 id="step-title">Wie bereitest du deinen Kaffee zu?</h2></div>
       <div class="progress-number" aria-live="polite"><b id="progress-current">01</b><span>/ 10</span></div>
     </div>
     <div class="progress-track" role="progressbar" aria-label="Fortschritt im Bohnen-Finder" aria-valuemin="0" aria-valuemax="10" aria-valuenow="1"><span id="progress-fill"></span></div>
     <ol class="step-beans" id="step-beans" aria-hidden="true"><li class="current"></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ol>
     <div id="question-content" class="question-content" aria-live="polite"></div>
     <div class="finder-controls" id="finder-controls">
-      <button class="finder-back" id="back-btn" type="button" disabled><span aria-hidden="true">←</span> Zurück</button>
+      <button class="finder-back" id="back-btn" type="button" disabled>Zurück</button>
       <span class="control-hint" id="control-hint">Wähle eine Antwort, um weiterzugehen</span>
-      <button class="finder-next" id="next-btn" type="button" disabled>Weiter <span aria-hidden="true">→</span></button>
+      <button class="finder-next" id="next-btn" type="button" disabled>Weiter</button>
     </div>
   </section>
 </main>
 <footer class="site-foot">
   <div class="wrap">
     <div class="cols">
-      <div><h4>Vergleiche</h4><a href="/vergleich-einsteiger">Einsteiger bis&nbsp;450&nbsp;€</a><a href="/vergleich-mittelklasse">Mittelklasse 400–1.000&nbsp;€</a><a href="/vergleich-premium">Premium ab&nbsp;1.450&nbsp;€</a><a href="/preisvergleich">Preisvergleich</a></div>
-      <div><h4>Erfahrungsberichte</h4><a href="/erfahrungsbericht-sage-bambino-plus">Sage Bambino Plus</a><a href="/erfahrungsbericht-profitec-go">Profitec GO</a><a href="/erfahrungsbericht-lelit-bianca">Lelit Bianca V3</a></div>
-      <div><h4>Ratgeber</h4><a href="/muehlen">Mühlen</a><a href="/zubehoer">Zubehör &amp; Bohnen</a><a href="/kaufberatung">Kaufberatung</a><a href="/kaffee-kurs">Kaffee-Kurs</a><a href="/kaffee-finder">Bohnen-Finder</a><a href="/literatur">Literatur</a></div>
-      <div><h4>Rechtliches</h4><a href="/impressum-datenschutz">Impressum &amp; Datenschutz</a></div>
+      <div><h4>Vergleiche</h4><a href="/vergleich-einsteiger">Einsteiger bis&nbsp;450&nbsp;€</a><a href="/vergleich-mittelklasse">Mittelklasse 400 bis 1.000&nbsp;€</a><a href="/vergleich-premium">Premium ab&nbsp;1.450&nbsp;€</a><a href="/preisvergleich">Preisvergleich</a><a href="/black-friday-siebtraeger">Black-Friday-Check</a><a href="/siebtraeger-oder-vollautomat">Siebträger oder Vollautomat?</a></div>
+      <div><h4>Erfahrungsberichte</h4><a href="/erfahrungsbericht-sage-bambino-plus">Sage Bambino Plus</a><a href="/erfahrungsbericht-sage-barista-express">Sage Barista Express</a><a href="/erfahrungsbericht-profitec-go">Profitec GO</a><a href="/erfahrungsbericht-lelit-bianca">Lelit Bianca V3</a></div>
+      <div><h4>Ratgeber</h4><a href="/kaufberatung">Kaufberatung</a><a href="/muehlen">Mühlen</a><a href="/zubehoer">Zubehör &amp; Bohnen</a><a href="/tamper-groesse">Tamper- &amp; Siebgrößen</a><a href="/siebtraeger-gebraucht-kaufen">Gebraucht kaufen</a><a href="/stromverbrauch-siebtraeger">Stromverbrauch &amp; Kosten</a><a href="/geschenke-siebtraeger">Geschenke</a></div>
+      <div><h4>Praxis &amp; Pflege</h4><a href="/espresso-diagnose">Espresso-Diagnose</a><a href="/latte-art">Latte Art</a><a href="/geschmacksrad">Geschmacksrad</a><a href="/kaffee-finder">Bohnen-Finder</a><a href="/siebtraeger-entkalken">Entkalken &amp; Wasserhärte</a></div>
+      <div><h4>Mehr</h4><a href="/kaffee-kurs">Kaffee-Kurs</a><a href="/literatur">Literatur</a><a href="/so-arbeiten-wir">So arbeiten wir</a><a href="/impressum-datenschutz">Impressum &amp; Datenschutz</a></div>
     </div>
-    <div class="disclosure">* Partnerlinks (Werbung): Kaufst du darüber ein, erhalten wir eine Provision vom Händler – der Preis ändert sich für dich nicht. Die Bohnen-Empfehlungen basieren auf den Produktangaben der Hersteller und Händler, Stand Oktober 2026; wir zeigen keine Live-Preise. Produktnamen sind Marken der jeweiligen Hersteller; dieser Ratgeber ist herstellerunabhängig. Alle Angaben ohne Gewähr. · Cookies und Partnerlinks helfen, diese Website zu finanzieren. · <a href="#" class="js-cookie-settings">Cookie-Einstellungen</a></div>
+    <div class="disclosure">* Partnerlinks (Werbung): Kaufst du darüber ein, erhalten wir eine Provision vom Händler. Der Preis ändert sich für dich nicht. Als Amazon-Partner verdienen wir an qualifizierten Verkäufen. Die Vorschläge beruhen auf Hersteller- und Händlerangaben, Stand Oktober 2026; die Zuordnung zum Preisrahmen beruht auf geschätzten Kilopreisen. Alle Angaben ohne Gewähr. Cookies und Partnerlinks helfen, diese Website zu finanzieren. <a href="#" class="js-cookie-settings">Cookie-Einstellungen</a></div>
   </div>
 </footer>
 </body>
