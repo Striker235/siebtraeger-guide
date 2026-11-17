@@ -1,5 +1,5 @@
 {
- "geprueft": "2026-11-17T11:43:01+01:00",
+ "geprueft": "2026-11-17T17:28:22+01:00",
  "hinweis": "Stand der letzten Prüfung. Preise aus den JSON-LD-Angeboten der Shopseiten oder aus einem Produktfeed. tief_30: niedrigster Tagespreis der 30 Tage vor dem Prüftag. Amazon und OTTO nur als Link.",
  "produkte": {
   "einsteiger-bambino-plus": {
@@ -497,7 +497,8 @@
    "name": "Graef CM 800",
    "angebote": [
     {
-     "status": "nicht lieferbar",
+     "status": "ok",
+     "preis": 189.99,
      "shop": "Graef"
     },
     {
@@ -513,11 +514,18 @@
      "shop": "OTTO"
     }
    ],
+   "bester_preis": 189.99,
+   "bester_shop": "Graef",
    "tage_mit_daten": 1,
    "daten_seit": "2026-10-22",
    "tief_30": 189.99,
    "tief_30_datum": "2026-10-22",
-   "urteil": "kein-preis"
+   "urteil": "kurz",
+   "referenz": {
+    "datum": "2026-10-21",
+    "preis": 189.99,
+    "shop": "Graef"
+   }
   }
  }
 }
