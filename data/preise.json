@@ -1,13 +1,12 @@
 {
- "geprueft": "2026-11-17T17:38:21+01:00",
+ "geprueft": "2026-11-25T00:27:55+01:00",
  "hinweis": "Stand der letzten Prüfung. Preise aus den JSON-LD-Angeboten der Shopseiten oder aus einem Produktfeed. tief_30: niedrigster Tagespreis der 30 Tage vor dem Prüftag. Amazon und OTTO nur als Link.",
  "produkte": {
   "einsteiger-bambino-plus": {
    "name": "Sage Bambino Plus",
    "angebote": [
     {
-     "status": "ok",
-     "preis": 380.99,
+     "status": "nicht lieferbar",
      "shop": "roastmarket"
     },
     {
@@ -19,18 +18,11 @@
      "shop": "OTTO"
     }
    ],
-   "bester_preis": 380.99,
-   "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 469.99,
-   "tief_30_datum": "2026-10-22",
-   "urteil": "kurz",
-   "referenz": {
-    "datum": "2026-10-12",
-    "preis": 439.99,
-    "shop": "roastmarket"
-   }
+   "tage_mit_daten": 7,
+   "daten_seit": "2026-11-17",
+   "tief_30": 380.99,
+   "tief_30_datum": "2026-11-22",
+   "urteil": "kein-preis"
   },
   "einsteiger-gastroback-piccolo-pro-m": {
    "name": "Gastroback Design Espresso Piccolo Pro M",
@@ -51,10 +43,10 @@
    ],
    "bester_preis": 217.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 232.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 217.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -81,10 +73,10 @@
    ],
    "bester_preis": 149.99,
    "bester_shop": "De’Longhi",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 154.0,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 149.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -113,10 +105,10 @@
    "bester_preis": 174.99,
    "bester_shop": "roastmarket",
    "ab": true,
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 220.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 174.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -143,10 +135,10 @@
    ],
    "bester_preis": 378.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 369.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 341.99,
+   "tief_30_datum": "2026-11-23",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -158,23 +150,15 @@
    "name": "Profitec GO",
    "angebote": [
     {
-     "status": "ok",
-     "preis": 839.99,
+     "status": "nicht lieferbar",
      "shop": "roastmarket"
     }
    ],
-   "bester_preis": 839.99,
-   "bester_shop": "roastmarket",
    "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 899.99,
-   "tief_30_datum": "2026-10-22",
-   "urteil": "kurz",
-   "referenz": {
-    "datum": "2026-10-12",
-    "preis": 929.99,
-    "shop": "roastmarket"
-   }
+   "daten_seit": "2026-11-17",
+   "tief_30": 839.99,
+   "tief_30_datum": "2026-11-17",
+   "urteil": "kein-preis"
   },
   "mittelklasse-barista-pro": {
    "name": "Sage Barista Pro",
@@ -197,10 +181,10 @@
    "bester_preis": 564.99,
    "bester_shop": "roastmarket",
    "ab": true,
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 679.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 564.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -223,10 +207,10 @@
    ],
    "bester_preis": 547.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 569.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 547.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -249,10 +233,10 @@
    ],
    "bester_preis": 1049.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
    "tief_30": 1049.99,
-   "tief_30_datum": "2026-10-22",
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz"
   },
   "mittelklasse-gaggia-classic": {
@@ -274,10 +258,10 @@
    ],
    "bester_preis": 430.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 499.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 7,
+   "daten_seit": "2026-11-17",
+   "tief_30": 430.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -304,10 +288,10 @@
    ],
    "bester_preis": 484.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 599.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 484.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -320,7 +304,7 @@
    "angebote": [
     {
      "status": "ok",
-     "preis": 2168.99,
+     "preis": 1961.99,
      "shop": "roastmarket"
     },
     {
@@ -332,12 +316,12 @@
      "shop": "OTTO"
     }
    ],
-   "bester_preis": 2168.99,
+   "bester_preis": 1961.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 2309.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 1961.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -356,10 +340,10 @@
    ],
    "bester_preis": 4938.5,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 5176.5,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 4938.5,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -384,7 +368,7 @@
    "angebote": [
     {
      "status": "ok",
-     "preis": 1499.0,
+     "preis": 1489.0,
      "ab": true,
      "shop": "roastmarket"
     },
@@ -393,13 +377,13 @@
      "shop": "OTTO"
     }
    ],
-   "bester_preis": 1499.0,
+   "bester_preis": 1489.0,
    "bester_shop": "roastmarket",
    "ab": true,
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 1699.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 1489.0,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -420,10 +404,10 @@
    "bester_preis": 1448.0,
    "bester_shop": "roastmarket",
    "ab": true,
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
    "tief_30": 1448.0,
-   "tief_30_datum": "2026-10-22",
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-12",
@@ -436,7 +420,7 @@
    "angebote": [
     {
      "status": "ok",
-     "preis": 332.99,
+     "preis": 334.99,
      "ab": true,
      "shop": "roastmarket"
     },
@@ -449,13 +433,13 @@
      "shop": "OTTO"
     }
    ],
-   "bester_preis": 332.99,
+   "bester_preis": 334.99,
    "bester_shop": "roastmarket",
    "ab": true,
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 372.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 332.99,
+   "tief_30_datum": "2026-11-23",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-21",
@@ -482,10 +466,10 @@
    ],
    "bester_preis": 207.99,
    "bester_shop": "roastmarket",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 210.99,
-   "tief_30_datum": "2026-10-22",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 207.99,
+   "tief_30_datum": "2026-11-24",
    "urteil": "kurz",
    "referenz": {
     "datum": "2026-10-21",
@@ -502,7 +486,8 @@
      "shop": "Graef"
     },
     {
-     "status": "nicht lieferbar",
+     "status": "ok",
+     "preis": 152.99,
      "shop": "roastmarket"
     },
     {
@@ -514,18 +499,13 @@
      "shop": "OTTO"
     }
    ],
-   "bester_preis": 189.99,
-   "bester_shop": "Graef",
-   "tage_mit_daten": 1,
-   "daten_seit": "2026-10-22",
-   "tief_30": 189.99,
-   "tief_30_datum": "2026-10-22",
-   "urteil": "kurz",
-   "referenz": {
-    "datum": "2026-10-21",
-    "preis": 189.99,
-    "shop": "Graef"
-   }
+   "bester_preis": 152.99,
+   "bester_shop": "roastmarket",
+   "tage_mit_daten": 8,
+   "daten_seit": "2026-11-17",
+   "tief_30": 152.99,
+   "tief_30_datum": "2026-11-24",
+   "urteil": "kurz"
   }
  }
 }
